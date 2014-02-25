@@ -1,0 +1,474 @@
+/* line 4, ../sass/app.scss */
+html {
+  margin: 0;
+  font-family: arial, helvetica, sans-serif;
+}
+/* line 8, ../sass/app.scss */
+html body {
+  margin: 0;
+  padding: 0;
+}
+/* line 12, ../sass/app.scss */
+html body header {
+  height: 10rem;
+}
+/* line 15, ../sass/app.scss */
+html body header nav {
+  font-family: 'Kaushan Script', cursive;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  text-align: center;
+}
+/* line 22, ../sass/app.scss */
+html body header nav .header-container {
+  display: inline-block;
+  background: #646464;
+  padding: 1rem;
+  box-shadow: 0px 0px 20px 0;
+  margin-right: 36rem;
+  padding-top: 0;
+  border-radius: 0 0 .5rem .5rem;
+}
+/* line 31, ../sass/app.scss */
+html body header nav .header-container h1 {
+  color: #FFF;
+  margin: 0;
+  width: 14rem;
+  vertical-align: middle;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top: 0;
+}
+/* line 44, ../sass/app.scss */
+html body header nav .links {
+  width: 100%;
+  display: inline-block;
+  background: #3f455a;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  box-shadow: 0 0 20px 0;
+}
+/* line 54, ../sass/app.scss */
+html body header nav .links .sub {
+  padding: 1rem 0 1rem 10rem;
+  width: 100%;
+  margin-bottom: .5rem;
+  border: 0;
+}
+/* line 60, ../sass/app.scss */
+html body header nav .links .sub .nav-link {
+  color: #FFF;
+  text-decoration: none;
+  margin: 0 2rem;
+  height: 2rem;
+  display: inline-block;
+  padding: .5rem 1rem 0;
+  font-size: 1.2rem;
+}
+@media only screen and (min-device-width: 600px) {
+  /* line 71, ../sass/app.scss */
+  html body header nav .links .sub .nav-link:hover {
+    color: #BBB;
+  }
+}
+/* line 77, ../sass/app.scss */
+html body header nav .links .sub .nav-link.selected {
+  text-decoration: underline;
+}
+/* line 88, ../sass/app.scss */
+html body .content {
+  width: 70rem;
+  margin: 0px auto;
+}
+/* line 92, ../sass/app.scss */
+html body .content h2 {
+  margin-left: 1rem;
+}
+/* line 96, ../sass/app.scss */
+html body .content .profile {
+  height: 15rem;
+  float: right;
+  margin: 1rem;
+  border-radius: .5rem;
+  box-shadow: 1px 1px 5px 0;
+}
+/* line 106, ../sass/app.scss */
+html body .content article section h3 {
+  margin: 0 0 0 2rem;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+/* line 111, ../sass/app.scss */
+html body .content article section h3:first-of-type {
+  /*              font-size: 1.5rem;
+                font-weight: bold;*/
+  text-transform: uppercase;
+}
+/* line 117, ../sass/app.scss */
+html body .content article section h4 {
+  font-weight: normal;
+  margin-left: 4rem;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+/* line 124, ../sass/app.scss */
+html body .content article section.sub ul {
+  margin-left: 4rem;
+}
+/* line 127, ../sass/app.scss */
+html body .content article section:not(.sub) {
+  padding: 1rem;
+  margin: 1rem;
+  border-top: 1px solid #888;
+}
+/* line 133, ../sass/app.scss */
+html body .content article p {
+  margin-left: 2rem;
+}
+/* line 139, ../sass/app.scss */
+html body footer {
+  width: 100%;
+  background: #646464;
+  height: 15rem;
+  color: #FFF;
+}
+/* line 145, ../sass/app.scss */
+html body footer .footer-container {
+  margin: 0px auto;
+  width: 65rem;
+}
+/* line 149, ../sass/app.scss */
+html body footer .footer-container article {
+  float: left;
+  padding: 1.9rem;
+}
+/* line 153, ../sass/app.scss */
+html body footer .footer-container article h2 {
+  font-family: 'Kaushan Script', cursive;
+  font-weight: normal;
+}
+/* line 158, ../sass/app.scss */
+html body footer .footer-container article a {
+  color: #FFF;
+}
+/* line 163, ../sass/app.scss */
+html body footer .footer-container article .badge .linkedin {
+  background: url(/styles/images/linkedin.png) !important;
+  height: 65px !important;
+  width: 65px !important;
+  display: inline-block !important;
+}
+/* line 170, ../sass/app.scss */
+html body footer .footer-container article .badge .facebook {
+  background: url(/styles/images/facebook.png) !important;
+  height: 65px !important;
+  width: 65px !important;
+  display: inline-block !important;
+}
+
+@font-face {
+  font-family: icons;
+  src: url(/styles/fonts/ErlerDingbats.ttf);
+}
+
+/* line 10, ../sass/_portfolio.scss */
+.portfolio .left {
+  width: 20rem;
+  display: inline-block;
+  background: #3f455a;
+  margin-bottom: 1rem;
+  border-radius: 1rem 0 0 1rem;
+  vertical-align: top;
+}
+/* line 19, ../sass/_portfolio.scss */
+.portfolio .left ul {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+}
+/* line 25, ../sass/_portfolio.scss */
+.portfolio .left ul li label {
+  background: #FFF;
+  color: #646464;
+  padding: .5rem;
+  margin: .5rem;
+  display: block;
+  cursor: pointer;
+}
+/* line 33, ../sass/_portfolio.scss */
+.portfolio .left ul li label:hover {
+  background: #646464;
+  color: #FFF;
+}
+/* line 38, ../sass/_portfolio.scss */
+.portfolio .left ul li label.selected {
+  background: #646464;
+  color: #FFF;
+}
+/* line 44, ../sass/_portfolio.scss */
+.portfolio .left ul li .expandable[data-icon]:before {
+  font-family: icons;
+  content: attr(data-icon);
+  font-weight: bold;
+  font-size: 1.4rem;
+  border-radius: 1rem;
+  border: 2px solid;
+  height: 1.5rem;
+  position: relative;
+  margin-right: 1rem;
+  display: inline-block;
+  width: 1.5rem;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0;
+}
+/* line 65, ../sass/_portfolio.scss */
+.portfolio .left ul li ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 1rem;
+  display: none;
+}
+/* line 74, ../sass/_portfolio.scss */
+.portfolio .pictures {
+  width: 47rem;
+  margin: 0 1rem 0 1rem;
+  text-align: center;
+  background: #EEE;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+  display: none;
+}
+/* line 83, ../sass/_portfolio.scss */
+.portfolio .pictures .large {
+  padding-top: 2rem;
+}
+/* line 86, ../sass/_portfolio.scss */
+.portfolio .pictures .large .large-image {
+  max-width: 40rem;
+  box-shadow: 0 0 15px;
+}
+/* line 91, ../sass/_portfolio.scss */
+.portfolio .pictures .thumbs {
+  height: 9rem;
+  margin-top: 2rem;
+  background: #555;
+  box-shadow: 0px -1px 20px -4px;
+}
+/* line 97, ../sass/_portfolio.scss */
+.portfolio .pictures .thumbs .thumbs-container {
+  overflow: hidden;
+  width: 36rem;
+  height: 10rem;
+  display: inline-block;
+}
+/* line 104, ../sass/_portfolio.scss */
+.portfolio .pictures .thumbs .button-left {
+  background: url(/styles/images/arrow.png);
+  width: 5rem;
+  height: inherit;
+  display: inline-block;
+  background-size: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  vertical-align: top;
+}
+/* line 119, ../sass/_portfolio.scss */
+.portfolio .pictures .thumbs .button-left:hover {
+  background: url(/styles/images/arrow-hover.png);
+  background-size: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+/* line 127, ../sass/_portfolio.scss */
+.portfolio .pictures .thumbs .button-right {
+  background: url(/styles/images/arrow.png);
+  width: 5rem;
+  height: inherit;
+  display: inline-block;
+  background-size: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  vertical-align: top;
+}
+/* line 140, ../sass/_portfolio.scss */
+.portfolio .pictures .thumbs .button-right:hover {
+  background: url(/styles/images/arrow-hover.png);
+  background-size: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+/* line 148, ../sass/_portfolio.scss */
+.portfolio .pictures .thumbs img {
+  width: 10rem;
+  margin: 1rem;
+  box-shadow: 0 0 10px;
+  cursor: pointer;
+}
+/* line 154, ../sass/_portfolio.scss */
+.portfolio .pictures .thumbs img.selected {
+  box-shadow: 0 0 10px #FFF;
+}
+/* line 161, ../sass/_portfolio.scss */
+.portfolio .code {
+  min-width: 43rem;
+  max-width: 43rem;
+  background: #EEE;
+  margin: 0 1rem 2rem;
+  visibility: hidden;
+  display: inline-block;
+}
+/* line 169, ../sass/_portfolio.scss */
+.portfolio .code .tabs {
+  padding: 0 0 0 .5rem;
+  background: #3f455a;
+  color: #FFF;
+}
+/* line 174, ../sass/_portfolio.scss */
+.portfolio .code .tabs span {
+  background: #646464;
+  padding: 1rem;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: .3rem .3rem 0 0;
+  color: #FFF;
+  margin-top: .3rem;
+  margin-right: .5rem;
+  margin-bottom: .1rem;
+}
+/* line 188, ../sass/_portfolio.scss */
+.portfolio .code .tabs span.active {
+  background: #EEE;
+  color: #646464;
+}
+/* line 195, ../sass/_portfolio.scss */
+.portfolio .code .details {
+  background: #3f455a;
+  padding: .5rem;
+  padding-top: 0;
+}
+/* line 200, ../sass/_portfolio.scss */
+.portfolio .code .details .detail {
+  background: #EEE;
+  color: #646464;
+  white-space: pre-wrap;
+  padding: 1rem;
+  display: none;
+  overflow-x: scroll;
+}
+/* line 208, ../sass/_portfolio.scss */
+.portfolio .code .details .detail textarea {
+  margin: 2px;
+  width: 39rem;
+  height: 40rem;
+  border: none;
+  background: none;
+  outline: none;
+  resize: none;
+}
+/* line 218, ../sass/_portfolio.scss */
+.portfolio .code .details .detail iframe {
+  width: 39rem;
+  height: 40rem;
+  border: none;
+}
+/* line 224, ../sass/_portfolio.scss */
+.portfolio .code .details .detail:first-child {
+  display: block;
+}
+
+@media only screen and (max-device-width: 600px) {
+  /* line 6, ../sass/_mobile.scss */
+  html {
+    margin: 0;
+    font-family: arial, helvetica, sans-serif;
+  }
+  /* line 10, ../sass/_mobile.scss */
+  html body {
+    margin: 0;
+    padding: 0;
+  }
+  /* line 20, ../sass/_mobile.scss */
+  html body header nav .header-container h1 {
+    font-size: 2.5rem;
+    width: 16rem;
+  }
+  /* line 31, ../sass/_mobile.scss */
+  html body header nav .links .sub .nav-link {
+    height: 4rem;
+    font-size: 3rem;
+    margin: 0 .5rem;
+    padding: .5rem .5rem 0;
+  }
+  /* line 44, ../sass/_mobile.scss */
+  html body .content {
+    width: 50rem;
+    @font-face {
+      font-family: icons;
+      src: url(/styles/fonts/ErlerDingbats.ttf);
+}
+
+  }
+  /* line 56, ../sass/_mobile.scss */
+  html body .content .left {
+    width: 30rem;
+    border-radius: 0;
+    position: relative;
+    left: 20%;
+  }
+  /* line 63, ../sass/_mobile.scss */
+  html body .content .left ul label {
+    font-size: 2rem;
+  }
+  /* line 67, ../sass/_mobile.scss */
+  html body .content .left ul label.expandable[data-icon]:before {
+    font-size: 2rem;
+    border-radius: 2rem;
+    border: 2px solid;
+    height: 2rem;
+    width: 2rem;
+  }
+  /* line 79, ../sass/_mobile.scss */
+  html body .content .code {
+    min-width: 48rem;
+    max-width: 48rem;
+  }
+  /* line 85, ../sass/_mobile.scss */
+  html body .content .code .tabs span {
+    font-size: 1.8rem;
+  }
+  /* line 93, ../sass/_mobile.scss */
+  html body .content .code .details .detail button {
+    font-size: 2rem;
+  }
+  /* line 97, ../sass/_mobile.scss */
+  html body .content .code .details .detail textarea {
+    width: 45rem;
+  }
+  /* line 101, ../sass/_mobile.scss */
+  html body .content .code .details .detail iframe {
+    width: 45rem;
+    height: 40rem;
+    border: none;
+  }
+  /* line 111, ../sass/_mobile.scss */
+  html body footer {
+    height: 25rem;
+  }
+  /* line 114, ../sass/_mobile.scss */
+  html body footer .footer-container {
+    width: 50rem;
+  }
+}

@@ -1,0 +1,50 @@
+@font-face {
+  font-family: icons;
+  src: url(/styles/fonts/ErlerDingbats.ttf);
+}
+
+/* line 13, ../sass/app.scss */
+html body {
+  font-family: arial, helvetica, sans-serif;
+}
+/* line 16, ../sass/app.scss */
+html body table {
+  border-spacing: 0;
+}
+/* line 21, ../sass/app.scss */
+html body table thead tr th {
+  text-align: left;
+  border-bottom: 2px solid #FFF;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  background: #3f455a;
+  color: #FFF;
+}
+/* line 31, ../sass/app.scss */
+html body table thead tr th.desc {
+  background: url("../images/sort-desc.png") #3f455a no-repeat;
+  background-position: 95% 50%;
+}
+/* line 36, ../sass/app.scss */
+html body table thead tr th.asc {
+  background: url("../images/sort-asc.png") #3f455a no-repeat;
+  background-position: 95% 50%;
+}
+/* line 47, ../sass/app.scss */
+html body table tbody tr td {
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 1rem 2rem;
+}
+/* line 53, ../sass/app.scss */
+html body table tbody tr:nth-child(even) {
+  background: #3f455a;
+  color: #FFF;
+}
+/* line 57, ../sass/app.scss */
+html body table tbody tr:nth-child(odd) {
+  background: #646464;
+  color: #FFF;
+}

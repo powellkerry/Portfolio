@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html ng-app="kerrywpowell">
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+        <meta name="Keywords" content="kerry, powell, kerry w, developer, application, application developer, html, css, sass, java, web, javascript, profile, resume, portfolio">
+        <meta name="Description" content="Professional profile, resume, and portfolio of Kerry W Powell" />
+
+        <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="styles/stylesheets/app.css"/>
+
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-route.min.js"></script>
+        <script src="/scripts/controllers/app.js"></script>
+        <script src="/scripts/controllers/PortfolioController.js"></script>
+        <script src="/scripts/factories/PortfolioFactory.js"></script>
+    </head>
+
+    <body ng-controller="appController">
+
+    <header>
+        <nav>
+            <div class="header-container">
+                <h1>Kerry W Powell</h1>
+            </div>
+            <div class="links">
+                <div class="sub">
+                    <a class="nav-link profile" href="/#/">Profile</a>
+                    <a class="nav-link resume" href="/#/resume">Resume</a>
+                    <a class="nav-link portfolio" href="/#/portfolio">Portfolio</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div ng-view></div>
+    <footer>
+        <div class="footer-container">
+            <article>
+                <h2>Address</h2>
+                <p>
+                    7796 N Mountain Ash Way <br/>
+                    Eagle Mountain, UT 84005
+                </p>
+            </article>
+
+            <article>
+                <h2>Phone</h2>
+                <p>
+                    (435) 754-4867
+                </p>
+            </article>
+
+            <article>
+                <h2>Email</h2>
+                <p>
+                    Personal: <a href="mailto:kerrywpowell@gmail.com">kerrywpowell@gmail.com</a><br/>
+                    Professional: <a href="mailto:kerry.powell@stgutah.com">kerry.powell@stgutah.com</a>
+                </p>
+            </article>
+
+            <article>
+                <h2>Social</h2>
+                <span class="badge">
+                    <a href="//plus.google.com/110477530571038082036?prsrc=3"
+                       rel="publisher" target="_top" style="text-decoration:none;">
+                        <img src="//ssl.gstatic.com/images/icons/gplus-64.png" alt="Google+" style="border:0;width:64px;height:64px;"/>
+                    </a>
+                </span>
+                <span class="badge">
+                    <a href="http://www.linkedin.com/pub/kerry-powell/69/a46/449/" class="linkedin"></a>
+                </span>
+                <span class="badge">
+                    <a href="https://www.facebook.com/kerrywpowell" class="facebook"></a>
+                </span>
+            </article>
+        </div>
+    </footer>
+
+
+
+    </body>
+
+
+
+</html>

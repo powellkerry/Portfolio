@@ -1,0 +1,185 @@
+$gray: #646464;
+$blue: #3F455A;
+
+html {
+  margin: 0;
+  font-family: arial, helvetica, sans-serif;
+
+  body {
+    margin: 0;
+    padding: 0;
+
+    header {
+      height: 10rem;
+
+      nav {
+        font-family: 'Kaushan Script', cursive;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        text-align: center;
+
+        .header-container {
+          display: inline-block;
+          background: $gray;
+          padding: 1rem;
+          box-shadow: 0px 0px 20px 0;
+          margin-right: 36rem;
+          padding-top: 0;
+          border-radius: 0 0 .5rem .5rem;
+
+          h1 {
+            color: #FFF;
+            margin: 0;
+            width: 14rem;
+            vertical-align: middle;
+            padding: 2rem 1rem;
+            text-align: center;
+            border-top: 0;
+          }
+        }
+
+
+
+        .links {
+          width: 100%;
+          display: inline-block;
+          background: $blue;
+          text-align: center;
+          position: absolute;
+          left: 0;
+          z-index: -1;
+          box-shadow: 0 0 20px 0;
+
+          .sub {
+            padding: 1rem 0 1rem 10rem;
+            width: 100%;
+            margin-bottom: .5rem;
+            border: 0;
+
+            .nav-link {
+
+              color: #FFF;
+              text-decoration: none;
+              margin: 0 2rem;
+              height: 2rem;
+              display: inline-block;
+              padding: .5rem 1rem 0;
+              font-size: 1.2rem;
+
+              @media only screen and (min-device-width: 600px) {
+                &:hover {
+
+                  color: #BBB;
+                }
+              }
+
+              &.selected {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+
+
+      }
+    }
+
+    .content {
+      width: 70rem;
+      margin: 0px auto;
+
+      h2 {
+        margin-left: 1rem;
+      }
+
+      .profile {
+        height: 15rem;
+        float: right;
+        margin: 1rem;
+        border-radius: .5rem;
+        box-shadow: 1px 1px 5px 0;
+      }
+
+      article {
+        section {
+          h3 {
+            margin: 0 0 0 2rem;
+            font-size: 1.2rem;
+            font-weight: normal;
+
+            &:first-of-type {
+/*              font-size: 1.5rem;
+              font-weight: bold;*/
+              text-transform: uppercase;
+            }
+          }
+          h4 {
+            font-weight: normal;
+            margin-left: 4rem;
+            font-size: 1.2rem;
+            margin-bottom: 0;
+            margin-top: 1rem;
+          }
+          &.sub ul {
+            margin-left: 4rem;
+          }
+          &:not(.sub) {
+            padding: 1rem;
+            margin: 1rem;
+            border-top: 1px solid #888;
+          }
+        }
+        p {
+          margin-left: 2rem;
+        }
+      }
+    }
+
+    footer {
+      width: 100%;
+      background: $gray;
+      height: 15rem;
+      color: #FFF;
+
+      .footer-container {
+        margin: 0px auto;
+        width: 65rem;
+
+        article {
+          float: left;
+          padding: 1.9rem;
+
+          h2 {
+            font-family: 'Kaushan Script', cursive;
+            font-weight: normal;
+          }
+
+          a {
+            color: #FFF;
+          }
+
+          .badge {
+            .linkedin {
+              background: url(/styles/images/linkedin.png) !important;
+              height: 65px !important;
+              width: 65px !important;
+              display: inline-block !important;
+            }
+
+            .facebook {
+              background: url(/styles/images/facebook.png) !important;
+              height: 65px !important;
+              width: 65px !important;
+              display: inline-block !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@import "portfolio";
+@import "mobile";

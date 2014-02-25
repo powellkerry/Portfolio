@@ -1,0 +1,65 @@
+$gray: #646464;
+$blue: #3F455A;
+
+@import "compass/css3";
+@import "compass/css3/transform";
+
+@font-face {
+  font-family: icons;
+  src: url(/styles/fonts/ErlerDingbats.ttf);
+}
+
+html {
+  body {
+    font-family: arial, helvetica, sans-serif;
+
+    table {
+      border-spacing: 0;
+
+      thead {
+        tr {
+          th {
+            text-align: left;
+            border-bottom: 2px solid #FFF;
+            white-space: nowrap;
+            overflow: hidden;
+            padding: 1rem 2rem;
+            cursor: pointer;
+            background: $blue;
+            color: #FFF;
+
+            &.desc {
+              background: url('../images/sort-desc.png') $blue no-repeat;
+              background-position: 95% 50%;
+            }
+
+            &.asc {
+              background: url('../images/sort-asc.png') $blue no-repeat;
+              background-position: 95% 50%;
+
+            }
+          }
+        }
+      }
+
+      tbody {
+        tr {
+          td {
+            white-space: nowrap;
+            overflow: hidden;
+            padding: 1rem 2rem;
+          }
+
+          &:nth-child(even) {
+            background: $blue;
+            color: #FFF;
+          }
+          &:nth-child(odd) {
+            background: $gray;
+            color: #FFF;
+          }
+        }
+      }
+    }
+  }
+}
