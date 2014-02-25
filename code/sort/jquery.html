@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Sort</title>
+    <link rel="stylesheet" href="../styles/stylesheets/app.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="sort.js"></script>
+    <script src="jquery.js"></script>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <th class="sorter" onclick="jquery.sort(event,'firstName')">First Name</th>
+            <th class="sorter" onclick="jquery.sort(event,'lastName')">Last Name</th>
+            <th class="sorter asc" onclick="jquery.sort(event,'order')">Order</th>
+            <th class="sorter" onclick="jquery.sort(event,'years')">Years Served</th>
+            <th class="sorter" onclick="jquery.sort(event,'birthPlace')">Birth State</th>
+            <th class="sorter" onclick="jquery.sort(event,'party')">Party</th>
+        </tr>
+        </thead>
+        <tbody id="jqueryTable">
+
+        </tbody>
+
+    </table>
+</body>
+</html>

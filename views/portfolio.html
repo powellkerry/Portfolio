@@ -19,14 +19,34 @@
                             <label class="expandable" data-icon="&#x002b;" ng-click="expandableClick($event)">Array Sorter</label>
                             <ul>
                                 <li>
-                                    <label ng-click="showCode('sort', 'native', $event)">Native</label>
+                                    <label ng-click="showCode('sort', 'native', true, $event)">Native</label>
                                 </li>
-                               <!-- <li>
-                                    <label ng-click="showCode('sort', 'angular', $event)">Angular</label>
-                                </li>-->
+                                <li>
+                                    <label ng-click="showCode('sort', 'angular', true, $event)">Angular</label>
+                                </li>
+                                <li>
+                                    <label ng-click="showCode('sort', 'jquery', true, $event)">jQuery</label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <label class="expandable" data-icon="&#x002b" ng-click="expandableClick($event)">Array Filter</label>
+                            <ul>
+                                <li>
+                                    <label ng-click="showCode('filter', 'native', true, $event)">Native</label>
+                                </li>
+                                <li>
+                                    <label ng-click="showCode('filter', 'angular', false, $event)">Angular</label>
+                                </li>
+                                <li>
+                                    <label ng-click="showCode('filter', 'jquery', true, $event)">jQuery</label>
+                                </li>
                             </ul>
                         </li>
                     </ul>
+                </li>
+                <li>
+                    <label ng-click="viewGit()">View This Site On GitHub</label>
                 </li>
             </ul>
         </nav>

@@ -13,8 +13,20 @@ html {
   body {
     font-family: arial, helvetica, sans-serif;
 
+    .filter-container {
+      margin: 1rem;
+      input[type=search] {
+        width: 100%;
+        border-radius: 2rem;
+        height: 2rem;
+        outline: none;
+        padding: 1rem;
+      }
+    }
+
     table {
       border-spacing: 0;
+      width: 100%;
 
       thead {
         tr {
@@ -24,9 +36,12 @@ html {
             white-space: nowrap;
             overflow: hidden;
             padding: 1rem 2rem;
-            cursor: pointer;
             background: $blue;
             color: #FFF;
+
+            &.sorter {
+              cursor: pointer;
+            }
 
             &.desc {
               background: url('../images/sort-desc.png') $blue no-repeat;

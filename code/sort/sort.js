@@ -15,9 +15,9 @@ var sort = {
             sortedArray = sortedArray.sort(function (a, b) {
                 var value = 0,
                     i = 0;
-                while (value == 0 && i < fields.length) {
-                    value = me.getSortValue(a,b,fields[i]);
-                    i++;
+                while (value === 0 && i < fields.length) {
+                    value = me.getSortValue(a, b, fields[i]);
+                    i += 1;
                 }
                 return value;
             });
@@ -35,13 +35,15 @@ var sort = {
      and -1 if the object needs to be moved up
      */
 
-    getSortValue: function(a,b,config) {
+    getSortValue: function (a, b, config) {
+        var value;
         if (a[config.field] < b[config.field]) {
-            return config.direction == 'ASC' ? -1 : 1;
+            value = config.direction === 'ASC' ? -1 : 1;
         } else if (a[config.field] > b[config.field]) {
-            return config.direction == 'ASC' ? 1 : -1;
+            value = config.direction === 'ASC' ? 1 : -1;
         } else {
-            return 0
+            value = 0;
         }
+        return value;
     }
-}
+};

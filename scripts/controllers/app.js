@@ -1,6 +1,6 @@
 var app = angular.module('kerrywpowell', ['ngRoute']);
 
-app.config(function($routeProvider) {
+app.config(function ($routeProvider) {
     $routeProvider.
         when('/', {
             templateUrl: '/views/profile.html',
@@ -16,16 +16,16 @@ app.config(function($routeProvider) {
         });
 });
 
-app.controller('ProfileController', function($scope) {
+app.controller('ProfileController', function ($scope) {
     $('.nav-link').removeClass('selected');
     $('.profile').addClass('selected');
 });
 
-app.controller('ResumeController', function($scope) {
+app.controller('ResumeController', function ($scope) {
     $('.nav-link').removeClass('selected');
     $('.resume').addClass('selected');
 });
 
-app.controller('appController', function($scope) {
+app.controller('appController', function ($scope) {
 
 });

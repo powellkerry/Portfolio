@@ -8,42 +8,58 @@ html body {
   font-family: arial, helvetica, sans-serif;
 }
 /* line 16, ../sass/app.scss */
+html body .filter-container {
+  margin: 1rem;
+}
+/* line 18, ../sass/app.scss */
+html body .filter-container input[type=search] {
+  width: 100%;
+  border-radius: 2rem;
+  height: 2rem;
+  outline: none;
+  padding: 1rem;
+}
+/* line 27, ../sass/app.scss */
 html body table {
   border-spacing: 0;
+  width: 100%;
 }
-/* line 21, ../sass/app.scss */
+/* line 33, ../sass/app.scss */
 html body table thead tr th {
   text-align: left;
   border-bottom: 2px solid #FFF;
   white-space: nowrap;
   overflow: hidden;
   padding: 1rem 2rem;
-  cursor: pointer;
   background: #3f455a;
   color: #FFF;
 }
-/* line 31, ../sass/app.scss */
+/* line 42, ../sass/app.scss */
+html body table thead tr th.sorter {
+  cursor: pointer;
+}
+/* line 46, ../sass/app.scss */
 html body table thead tr th.desc {
   background: url("../images/sort-desc.png") #3f455a no-repeat;
   background-position: 95% 50%;
 }
-/* line 36, ../sass/app.scss */
+/* line 51, ../sass/app.scss */
 html body table thead tr th.asc {
   background: url("../images/sort-asc.png") #3f455a no-repeat;
   background-position: 95% 50%;
 }
-/* line 47, ../sass/app.scss */
+/* line 62, ../sass/app.scss */
 html body table tbody tr td {
   white-space: nowrap;
   overflow: hidden;
   padding: 1rem 2rem;
 }
-/* line 53, ../sass/app.scss */
+/* line 68, ../sass/app.scss */
 html body table tbody tr:nth-child(even) {
   background: #3f455a;
   color: #FFF;
 }
-/* line 57, ../sass/app.scss */
+/* line 72, ../sass/app.scss */
 html body table tbody tr:nth-child(odd) {
   background: #646464;
   color: #FFF;
