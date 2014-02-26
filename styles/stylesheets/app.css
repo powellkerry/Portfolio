@@ -352,14 +352,16 @@ html body footer .footer-container article .badge .facebook {
 .portfolio .code .tabs span.active {
   background: #EEE;
   color: #646464;
+  margin-bottom: 0;
+  padding-bottom: 1.1rem;
 }
-/* line 195, ../sass/_portfolio.scss */
+/* line 197, ../sass/_portfolio.scss */
 .portfolio .code .details {
   background: #3f455a;
   padding: .5rem;
   padding-top: 0;
 }
-/* line 200, ../sass/_portfolio.scss */
+/* line 202, ../sass/_portfolio.scss */
 .portfolio .code .details .detail {
   background: #EEE;
   color: #646464;
@@ -368,7 +370,7 @@ html body footer .footer-container article .badge .facebook {
   display: none;
   overflow-x: scroll;
 }
-/* line 208, ../sass/_portfolio.scss */
+/* line 210, ../sass/_portfolio.scss */
 .portfolio .code .details .detail textarea {
   margin: 2px;
   width: 39rem;
@@ -378,13 +380,13 @@ html body footer .footer-container article .badge .facebook {
   outline: none;
   resize: none;
 }
-/* line 218, ../sass/_portfolio.scss */
+/* line 220, ../sass/_portfolio.scss */
 .portfolio .code .details .detail iframe {
   width: 39rem;
   height: 40rem;
   border: none;
 }
-/* line 224, ../sass/_portfolio.scss */
+/* line 226, ../sass/_portfolio.scss */
 .portfolio .code .details .detail:first-child {
   display: block;
 }
