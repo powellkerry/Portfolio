@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html ng-app="IncomeTaxes">
+<head>
+    <title>Income Tax Calculator</title>
+    <link rel="stylesheet" href="../styles/stylesheets/app.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+    <script src="angular.js"></script>
+</head>
+<body ng-controller="IncomeTaxController">
+    <div class="input">
+        <h1>Annual Income Tax Calculator</h1>
+        <form>
+            <div class="form-field">
+                <label>Filing Status:</label>
+                <select ng-model="schedule" ng-change="selectSchedule()">
+                    <option ng-repeat="schedule in scheduleNames" value="{{schedule}}">{{schedule}}</option>
+                </select>
+            </div>
+
+            <div class="form-field">
+                <label>Annual Income:</label>
+                <input type="number" ng-model="income" ng-keyup="selectSchedule()"/>
+            </div>
+        </form>
+    </div>
+
+    <div class="result">
+        <h1>Result</h1>
+        <section class="selected-schedule">
+            <h2>Schedule:</h2>
+            <div class="result-field">
+                <label>Filing Status:</label>
+                <span class="value">{{selectedSchedule.status}}</span>
+            </div>
+            <div class="result-field">
+                <label>Income Range:</label>
+                <span class="value">
+                    <span ng-if="selectedSchedule && selectedSchedule.upperBound">{{selectedSchedule.lowerBound | currency}} - {{selectedSchedule.upperBound | currency}}</span>
+                    <span ng-if="selectedSchedule && selectedSchedule.upperBound === null"> > {{selectedSchedule.lowerBound | currency}}</span>
+                </span>
+            </div>
+            <div class="result-field">
+                <label>Tax Rate:</label>
+                <span class="value">{{selectedSchedule.taxRate | percentage}}</span>
+            </div>
+            <div class="result-field">
+                <label>Tax Rate Assessed After:</label>
+                <span class="value">{{selectedSchedule.rateAppliesToAmountOver | currency}}</span>
+            </div>
+            <div class="result-field">
+                <label>Base Amount:</label>
+                <span class="value">{{selectedSchedule.baseAmount | currency}}</span>
+            </div>
+        </section>
+
+        <section class="tax-totals">
+            <h2>Income Tax Amount</h2>
+            <div class="result-field">
+                <label>Total Income Tax:</label>
+                <span>
+                    <span class="value">{{taxTotal | currency}}</span><br/>
+                    <span class="formula">(({{income | currency}} - {{selectedSchedule.lowerBound | currency}}) x {{selectedSchedule.taxRate | percentage}}) + {{selectedSchedule.baseAmount | currency}}</span>
+                </span>
+            </div>
+        </section>
+        <br/><br/>
+        *Based on 2013 federal income tax schedules
+    </div>
+</body>
+</html>

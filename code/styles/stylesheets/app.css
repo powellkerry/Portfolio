@@ -3,15 +3,22 @@
   src: url(/styles/fonts/ErlerDingbats.ttf);
 }
 
-/* line 13, ../sass/app.scss */
-html body {
-  font-family: arial, helvetica, sans-serif;
+/* line 12, ../sass/app.scss */
+html {
+  padding: 0;
+  margin: 0;
 }
 /* line 16, ../sass/app.scss */
+html body {
+  font-family: arial, helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/* line 21, ../sass/app.scss */
 html body .filter-container {
   margin: 1rem;
 }
-/* line 18, ../sass/app.scss */
+/* line 23, ../sass/app.scss */
 html body .filter-container input[type=search] {
   width: 100%;
   border-radius: 2rem;
@@ -19,12 +26,12 @@ html body .filter-container input[type=search] {
   outline: none;
   padding: 1rem;
 }
-/* line 27, ../sass/app.scss */
+/* line 32, ../sass/app.scss */
 html body table {
   border-spacing: 0;
   width: 100%;
 }
-/* line 33, ../sass/app.scss */
+/* line 38, ../sass/app.scss */
 html body table thead tr th {
   text-align: left;
   border-bottom: 2px solid #FFF;
@@ -34,33 +41,74 @@ html body table thead tr th {
   background: #3f455a;
   color: #FFF;
 }
-/* line 42, ../sass/app.scss */
+/* line 47, ../sass/app.scss */
 html body table thead tr th.sorter {
   cursor: pointer;
 }
-/* line 46, ../sass/app.scss */
+/* line 51, ../sass/app.scss */
 html body table thead tr th.desc {
   background: url("../images/sort-desc.png") #3f455a no-repeat;
   background-position: 95% 50%;
 }
-/* line 51, ../sass/app.scss */
+/* line 56, ../sass/app.scss */
 html body table thead tr th.asc {
   background: url("../images/sort-asc.png") #3f455a no-repeat;
   background-position: 95% 50%;
 }
-/* line 62, ../sass/app.scss */
+/* line 67, ../sass/app.scss */
 html body table tbody tr td {
   white-space: nowrap;
   overflow: hidden;
   padding: 1rem 2rem;
 }
-/* line 68, ../sass/app.scss */
+/* line 73, ../sass/app.scss */
 html body table tbody tr:nth-child(even) {
   background: #3f455a;
   color: #FFF;
 }
-/* line 72, ../sass/app.scss */
+/* line 77, ../sass/app.scss */
 html body table tbody tr:nth-child(odd) {
   background: #646464;
   color: #FFF;
+}
+/* line 85, ../sass/app.scss */
+html body .input {
+  float: left;
+  width: 50%;
+  background: #3f455a;
+  padding: 2rem;
+  color: #FFF;
+  box-sizing: border-box;
+  min-height: 35rem;
+}
+/* line 95, ../sass/app.scss */
+html body .input .form-field label {
+  display: inline-block;
+  width: 8rem;
+  font-weight: bold;
+}
+/* line 103, ../sass/app.scss */
+html body .result {
+  float: right;
+  width: 50%;
+  background: #646464;
+  padding: 2rem;
+  color: #FFF;
+  box-sizing: border-box;
+  min-height: 35rem;
+}
+/* line 113, ../sass/app.scss */
+html body .result .result-field label {
+  vertical-align: top;
+  width: 9rem;
+  font-weight: bold;
+}
+/* line 118, ../sass/app.scss */
+html body .result .result-field span {
+  display: inline-block;
+}
+/* line 121, ../sass/app.scss */
+html body .result .result-field span .formula {
+  font-style: italic;
+  font-size: .8rem;
 }

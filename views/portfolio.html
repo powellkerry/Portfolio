@@ -43,6 +43,20 @@
                                 </li>
                             </ul>
                         </li>
+                        <li>
+                            <label class="expandable" data-icon="+" ng-click="expandableClick($event)">Income Tax Calculator</label>
+                            <ul>
+                                <li>
+                                    <label ng-click="showCode('tax', 'native', false, $event)">Native</label>
+                                </li>
+                                <li>
+                                    <label ng-click="showCode('tax', 'angular', false, $event)">Angular</label>
+                                </li>
+                                <li>
+                                    <label ng-click="showCode('tax', 'jquery', false, $event)">jQuery</label>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
                 <li>
