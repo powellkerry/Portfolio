@@ -1,0 +1,105 @@
+.modal {
+  position: fixed;
+  background: rgba(0,0,0,.8);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  display: none;
+
+  &.visible {
+    display: block;
+  }
+
+  button {
+    background: $color-action;
+    color: $color-background;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 38px;
+    width: 90px;
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    border: 1px solid;
+    border-bottom: none;
+
+    &:active {
+      background: $color-primary;
+    }
+
+  }
+
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom: 1px solid $color-background;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0 0 0 5px;
+
+    &:active {
+      border-bottom-color: $color-background;
+    }
+  }
+
+  .prev {
+    position: absolute;
+    top: 30%;
+    left: -26px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    border-radius: 5px 5px 0 0;
+    z-index: 2000;
+  }
+
+  .next {
+    position: absolute;
+    top: 30%;
+    right: -26px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    border-radius: 5px 5px 0 0;
+    z-index: 2000;
+  }
+
+
+
+  .lightbox {
+    position: relative;
+    top: 10%;
+    margin: 0px auto;
+    width: 90%;
+    overflow: hidden;
+    max-width: 860px;
+    box-sizing: border-box;
+    text-align: center;
+
+
+    .title {
+      margin: 0;
+      background: none;
+      color: $color-secondary;
+      font-weight: bold;
+      font-size: 12px;
+      position: absolute;
+      padding: 5px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    .current-image {
+      max-width: 100%;
+      max-height: calc(100% - 30px);
+      border-top: 30px solid transparent;
+      box-sizing: border-box;
+    }
+  }
+}

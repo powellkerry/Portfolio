@@ -1,0 +1,65 @@
+.tabpanel {
+  clear: both;
+  height: 900px;
+  position: relative;
+
+ .tabs {
+   margin-left: 36px;
+
+   .tab {
+     background: $color-action;
+     border: 1px solid $color-background;
+     color: $color-background;
+     float: left;
+     display: inline-block;
+     padding: 10px;
+     font-size: 12px;
+     border-bottom: 0;
+
+     &.active {
+       background: $color-background;
+       color: $color-action;
+     }
+   }
+
+   &.side {
+     margin-left: 0;
+     position: absolute;
+     -webkit-transform: rotate(-90deg);
+     -webkit-transform-origin: top right;
+     transform: rotate(-90deg);
+     transform-origin: top right;
+     left: -900px;
+     padding-right: 40px;
+     background: $color-action;
+     width: 900px;
+     box-sizing: border-box;
+
+     .tab {
+       float: right;
+       cursor: pointer;
+     }
+   }
+ }
+
+ .content {
+   background: $color-background;
+   height: 100%;
+   width: 100%;
+   display: inline-block;
+   cursor: auto;
+
+   & > * {
+     display: none;
+   }
+
+   & > *.active {
+     display: inline;
+   }
+
+   & > code.active {
+     display: inline-block;
+   }
+ }
+
+}

@@ -1,0 +1,9 @@
+article {
+  background: rgba(250, 250, 250, .9);
+  max-width: 1000px;
+  margin: 0px auto;
+
+  p, li {
+    max-width: 500px;
+  }
+}

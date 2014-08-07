@@ -1,0 +1,226 @@
+[
+    {
+        "status": "Single",
+        "lowerBound": 0,
+        "upperBound": 8925,
+        "taxRate": 0.1,
+        "baseAmount": 0,
+        "rateAppliesToAmountOver": 0
+    },
+    {
+        "status": "Single",
+        "lowerBound": 8925,
+        "upperBound": 36250,
+        "taxRate": 0.15,
+        "baseAmount": 892.50,
+        "rateAppliesToAmountOver": 8925
+    },
+    {
+        "status": "Single",
+        "lowerBound": 36250,
+        "upperBound": 87850,
+        "taxRate": 0.25,
+        "baseAmount": 4991.25,
+        "rateAppliesToAmountOver": 36250
+    },
+    {
+        "status": "Single",
+        "lowerBound": 87850,
+        "upperBound": 183250,
+        "taxRate": 0.28,
+        "baseAmount": 17891.25,
+        "rateAppliesToAmountOver": 87850
+    },
+    {
+        "status": "Single",
+        "lowerBound": 183250,
+        "upperBound": 398350,
+        "taxRate": 0.33,
+        "baseAmount": 44603.25,
+        "rateAppliesToAmountOver": 183250
+    },
+    {
+        "status": "Single",
+        "lowerBound": 398350,
+        "upperBound": 400000,
+        "taxRate": 0.35,
+        "baseAmount": 115586.25,
+        "rateAppliesToAmountOver": 398350
+    },
+    {
+        "status": "Single",
+        "lowerBound": 400000,
+        "upperBound": null,
+        "taxRate": 0.396,
+        "baseAmount": 116163.75,
+        "rateAppliesToAmountOver": 400000
+    },
+    {
+        "status": "Married",
+        "lowerBound": 0,
+        "upperBound": 17850,
+        "taxRate": 0.1,
+        "baseAmount": 0,
+        "rateAppliesToAmountOver": 0
+    },
+    {
+        "status": "Married",
+        "lowerBound": 17850,
+        "upperBound": 72500,
+        "taxRate": 0.15,
+        "baseAmount": 1785,
+        "rateAppliesToAmountOver": 17850
+    },
+    {
+        "status": "Married",
+        "lowerBound": 72500,
+        "upperBound": 146400,
+        "taxRate": 0.25,
+        "baseAmount": 9982.50,
+        "rateAppliesToAmountOver": 72500
+    },
+    {
+        "status": "Married",
+        "lowerBound": 146400,
+        "upperBound": 223050,
+        "taxRate": 0.28,
+        "baseAmount": 28457.50,
+        "rateAppliesToAmountOver": 146400
+    },
+    {
+        "status": "Married",
+        "lowerBound": 223050,
+        "upperBound": 398350,
+        "taxRate": 0.33,
+        "baseAmount": 49919.50,
+        "rateAppliesToAmountOver": 223050
+    },
+    {
+        "status": "Married",
+        "lowerBound": 398350,
+        "upperBound": 450000,
+        "taxRate": 0.35,
+        "baseAmount": 107768.50,
+        "rateAppliesToAmountOver": 398350
+    },
+    {
+        "status": "Married",
+        "lowerBound": 450000,
+        "upperBound": 0,
+        "taxRate": 0.396,
+        "baseAmount": 125846,
+        "rateAppliesToAmountOver": 450000
+    },
+    {
+        "status": "Married Filing Separately",
+        "lowerBound": 0,
+        "upperBound": 8925,
+        "taxRate": 0.1,
+        "baseAmount": 0,
+        "rateAppliesToAmountOver": 0
+    },
+    {
+        "status": "Married Filing Separately",
+        "lowerBound": 8925,
+        "upperBound": 36250,
+        "taxRate": 0.15,
+        "baseAmount": 892.50,
+        "rateAppliesToAmountOver": 8925
+    },
+    {
+        "status": "Married Filing Separately",
+        "lowerBound": 36250,
+        "upperBound": 73200,
+        "taxRate": 0.25,
+        "baseAmount": 4991.25,
+        "rateAppliesToAmountOver": 36250
+    },
+    {
+        "status": "Married Filing Separately",
+        "lowerBound": 73200,
+        "upperBound": 111525,
+        "taxRate": 0.28,
+        "baseAmount": 14228.75,
+        "rateAppliesToAmountOver": 73200
+    },
+    {
+        "status": "Married Filing Separately",
+        "lowerBound": 111525,
+        "upperBound": 199175,
+        "taxRate": 0.33,
+        "baseAmount": 24959.75,
+        "rateAppliesToAmountOver": 111525
+    },
+    {
+        "status": "Married Filing Separately",
+        "lowerBound": 199175,
+        "upperBound": 225000,
+        "taxRate": 0.35,
+        "baseAmount": 53884.25,
+        "rateAppliesToAmountOver": 199175
+    },
+    {
+        "status": "Married Filing Separately",
+        "lowerBound": 225000,
+        "upperBound": null,
+        "taxRate": 0.396,
+        "baseAmount": 62975.5,
+        "rateAppliesToAmountOver": 225000
+    },
+    {
+        "status": "Head of Household",
+        "lowerBound": 0,
+        "upperBound": 12750,
+        "taxRate": 0.1,
+        "baseAmount": 0,
+        "rateAppliesToAmountOver": 0
+    },
+    {
+        "status": "Head of Household",
+        "lowerBound": 12750,
+        "upperBound": 48600,
+        "taxRate": 0.15,
+        "baseAmount": 1275,
+        "rateAppliesToAmountOver": 12750
+    },
+    {
+        "status": "Head of Household",
+        "lowerBound": 48600,
+        "upperBound": 125450,
+        "taxRate": 0.25,
+        "baseAmount": 6625.50,
+        "rateAppliesToAmountOver": 48600
+    },
+    {
+        "status": "Head of Household",
+        "lowerBound": 125450,
+        "upperBound": 203150,
+        "taxRate": 0.28,
+        "baseAmount": 25838,
+        "rateAppliesToAmountOver": 125450
+    },
+    {
+        "status": "Head of Household",
+        "lowerBound": 203150,
+        "upperBound": 398350,
+        "taxRate": 0.33,
+        "baseAmount": 47594,
+        "rateAppliesToAmountOver": 203150
+    },
+    {
+        "status": "Head of Household",
+        "lowerBound": 398350,
+        "upperBound": 425000,
+        "taxRate": 0.35,
+        "baseAmount": 112010,
+        "rateAppliesToAmountOver": 398350
+    },
+    {
+        "status": "Head of Household",
+        "lowerBound": 425000,
+        "upperBound": null,
+        "taxRate": 0.396,
+        "baseAmount": 121337.5,
+        "rateAppliesToAmountOver": 425000
+    }
+]

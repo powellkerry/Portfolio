@@ -1,0 +1,46 @@
+section {
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+
+  &.dates {
+    padding-left: 60px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-image: linear-gradient(to right, $color-action, transparent) 5 0 0 0;
+
+    &:before {
+      content: attr(data-content);
+      display: block;
+      border-radius: 5px 5px 0 0;
+      background: $color-action;
+      color: $color-background;
+      font-weight: bold;
+      padding: 10px;
+      box-sizing: border-box;
+      position: absolute;
+      width: 260px;
+      top: 259;
+      left: -8px;
+      -webkit-transform: rotate(-90deg);
+      -webkit-transform-origin: top left;
+      transform: rotate(-90deg);
+      transform-origin: top left;
+      text-align: center;
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      height: 100%;
+      width: 1px;
+      border: 1px solid;
+      position: absolute;
+      top: -2px;
+      left: 32px;
+      border-image: linear-gradient(to bottom, $color-action, transparent) 0 1 0 0;
+    }
+  }
+
+
+}

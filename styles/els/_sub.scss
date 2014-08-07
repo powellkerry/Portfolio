@@ -1,0 +1,15 @@
+sub {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  background: #008CA1;
+  color: #EDF4F7;
+  display: inline-block;
+  position: absolute;
+  top: 81px;
+  left: -115px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px 5px 0 5px;
+  text-align: right;
+  box-sizing: border-box;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Native Filter</title>
+    <link rel="stylesheet" href="../../styles/build/portfolio.min.css">
+    <script src="filter.js"></script>
+    <script src="native.js"></script>
+</head>
+<body>
+    <div class="filter-container">
+        <input type="search" id="filter" placeholder="Begin typing to filter" onkeyup="native.filter(event)">
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Order</th>
+            <th>Years Served</th>
+            <th>Birth State</th>
+            <th>Party</th>
+        </tr>
+        </thead>
+        <tbody id="nativeTable">
+
+        </tbody>
+    </table>
+</body>
+</html>

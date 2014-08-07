@@ -1,0 +1,42 @@
+<html ng-app="GovData">
+    <head>
+        <title>US Government Spending</title>
+
+        <link rel="stylesheet" href="styles/build/spending.min.css">
+
+        <script src="https://code.angularjs.org/1.2.16/angular.js"></script>
+        <script src="scripts/colors.js"></script>
+        <script src="scripts/d3.min.js" charset="utf-8"></script>
+        <script src="scripts/GovDataController.js"></script>
+
+    </head>
+    <body ng-controller="GovDataController">
+    <header class="site-header">
+        <img class="logo" src="styles/resources/OldGlory.svg">
+        <h1><span class="dollar">$</span>pending</h1>
+        <h2>Total Spending: {{totalSpent}}</h2>
+    </header>
+    <menu class="site-menu">
+        <form>
+            <label>Year:
+                <select ng-model="year" ng-options="tYear for tYear in years" ng-change="refresh()">
+                </select>
+            </label>
+            <label>Detail Level:
+                <select ng-change="syncAgencyState()" ng-model="detail">
+                    <option value="agencyData">Agency</option>
+                    <option value="bureauData">Bureau</option>
+                    <option value="accountData">Account</option>
+                </select>
+            </label>
+            <label>Agency:
+                <select ng-change="refresh()" ng-model="agency" ng-disabled="detail == 'agencyData'">
+                    <option ng-repeat="agency in agencies" value="{{agency}}">{{agency}}</option>
+                </select>
+            </label>
+        </form>
+    </menu>
+
+    <script src="scripts/d3.js"></script>
+    </body>
+</html>

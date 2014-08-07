@@ -1,0 +1,52 @@
+table {
+  border-collapse: collapse;
+
+  thead {
+    background: $color-secondary;
+    border-bottom: 3px solid $color-background;
+    color: $color-background;
+
+    th {
+      text-align: left;
+      padding: 10px;
+      position: relative;
+      cursor: pointer;
+
+      &.sorter {
+        padding-right: 40px;
+        &.asc:before {
+          content: '';
+          background: url(../images/expander-hover.svg) no-repeat;
+          width: 20px;
+          height: 20px;
+          background-size: 100%;
+          position: absolute;
+          right: 5px;
+          top: 30%;
+          -webkit-transform: rotate(180deg);
+        }
+
+        &.desc:before {
+          content: '';
+          background: url(../images/expander-hover.svg) no-repeat;
+          width: 20px;
+          height: 20px;
+          background-size: 100%;
+          position: absolute;
+          right: 5px;
+          top: 30%;
+        }
+      }
+    }
+  }
+  tbody {
+    tr:nth-child(odd) {
+      background: $color-primary;
+      color: $color-background;
+    }
+
+    td {
+      padding: 10px;
+    }
+  }
+}

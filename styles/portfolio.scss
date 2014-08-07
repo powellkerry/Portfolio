@@ -1,0 +1,43 @@
+@import "vars/fonts";
+@import "vars/colors";
+@import "els/nav";
+@import "els/headers";
+@import "els/aticle";
+@import "els/section";
+@import "els/sub";
+@import "els/iframe";
+@import "els/table";
+@import "els/code";
+@import "comps/media";
+@import "comps/site-header";
+@import "comps/site-footer";
+@import "comps/lightbox";
+@import "comps/site-nav";
+@import "comps/accordion_nav";
+@import "comps/tab-panel";
+
+html {
+  width: 100%;
+  overflow-x: hidden;
+
+  body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: $color-background;
+    color: $color-primary;
+    font-family: $font-family;
+    font-size: 18px;
+
+    .site-container {
+      margin: 0 20px;
+      position: relative;
+      max-width: 1000px;
+      margin: 0px auto;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  }
+}

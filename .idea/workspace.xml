@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f241c083-7324-4914-a8d0-529fcbfc66fa" name="Default" comment="" />
+    <ignored path="professional.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407374066837" ignored="false" />
+    <file path="$PROJECT_DIR$/../wardmission/index.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393618301176" ignored="false" />
+    <file path="$PROJECT_DIR$/../wardmission/scripts/controllers/WardMissionaryController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393609512449" ignored="false" />
+    <file path="/WardMissionaryController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393609787997" ignored="false" />
+    <file path="/index.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407284580164" ignored="false" />
+    <file path="$PROJECT_DIR$/../wardmission/scripts/controllers/AuthenticationController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393609668538" ignored="false" />
+    <file path="/AuthenticationController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393620926862" ignored="false" />
+    <file path="$PROJECT_DIR$/../wardmission/controllers/WardMissionaryController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393609787997" ignored="false" />
+    <file path="$PROJECT_DIR$/../wardmission/controllers/AuthenticationController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393621042319" ignored="false" />
+    <file path="/login.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393625204607" ignored="false" />
+    <file path="$PROJECT_DIR$/../wardmission/views/login.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393625204607" ignored="false" />
+    <file path="$PROJECT_DIR$/../wardmission/.idea/workspace.xml" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393623279736" ignored="false" />
+    <file path="/handheld.sass" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393612585611" ignored="false" />
+    <file path="$PROJECT_DIR$/../wardmission/styles/sass/handheld.sass" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393612592296" ignored="false" />
+    <file path="$PROJECT_DIR$/../wardmission/styles/sass/handheld.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393616299750" ignored="false" />
+    <file path="/handheld.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393616103854" ignored="false" />
+    <file path="$PROJECT_DIR$/../wardmission/styles/sass/app.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393620253480" ignored="false" />
+    <file path="$PROJECT_DIR$/../wardmission/styles/stylesheets/reset.css" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393616512078" ignored="false" />
+    <file path="/app.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393619594844" ignored="false" />
+    <file path="$PROJECT_DIR$/../wardmission/styles/stylesheets/app.css" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393620295841" ignored="false" />
+    <file path="$PROJECT_DIR$/../wardmission/server/authenticate.php" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393625133436" ignored="false" />
+    <file path="/authenticate.php" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393624986368" ignored="false" />
+    <file path="/users.sql" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393622531408" ignored="false" />
+    <file path="$PROJECT_DIR$/../wardmission/sql/users.sql" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393622531871" ignored="false" />
+    <file path="db-console:/9cfcc46a/2331aa3a-778b-4652-ae23-525d62886ada/" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393623653578" ignored="false" />
+    <file path="$PROJECT_DIR$/../wardmission/sql/ward_missionaries.sql" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393622927291" ignored="false" />
+    <file path="/ward_missionaries.sql" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393622690447" ignored="false" />
+    <file path="/wardmission" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393623652451" ignored="false" />
+    <file path="/portfolio.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1394819264154" ignored="false" />
+    <file path="/PortfolioController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1394819353581" ignored="false" />
+    <file path="$PROJECT_DIR$/../news/index.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1394827594925" ignored="false" />
+    <file path="$PROJECT_DIR$/../news/build/news.min.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1394827908442" ignored="false" />
+    <file path="$PROJECT_DIR$/../news/controllers/ArticleController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1394829046098" ignored="false" />
+    <file path="$PROJECT_DIR$/../news/views/article.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1394829110257" ignored="false" />
+    <file path="/article.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1394828912660" ignored="false" />
+    <file path="/ArticleController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1394829035195" ignored="false" />
+    <file path="/kerrywpowell.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1398283169859" ignored="false" />
+    <file path="/_root.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1398270275228" ignored="false" />
+    <file path="/_images.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1398261993291" ignored="false" />
+    <file path="/_fonts.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402589996655" ignored="false" />
+    <file path="/_nav.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1399558996395" ignored="false" />
+    <file path="/_header.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402952442336" ignored="false" />
+    <file path="/_colors.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403185361338" ignored="false" />
+    <file path="/_footer.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1398281650607" ignored="false" />
+    <file path="/_lists.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1398282873417" ignored="false" />
+    <file path="/_headings.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1398282916290" ignored="false" />
+    <file path="/profile.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1398269767864" ignored="false" />
+    <file path="/_profile.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1398281287105" ignored="false" />
+    <file path="/_article.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1398282633832" ignored="false" />
+    <file path="/_helpers.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1398282725587" ignored="false" />
+    <file path="/_code-viewer.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1398283283521" ignored="false" />
+    <file path="/Portfolio.config.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403193381497" ignored="false" />
+    <file path="/home.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1399557805615" ignored="false" />
+    <file path="/portfolio.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407291227783" ignored="false" />
+    <file path="/_site-nav.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403189929451" ignored="false" />
+    <file path="/NavController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403125574156" ignored="false" />
+    <file path="/_site-header.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403192678892" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/fdp/src/main/html/edu/wgu/fdp/web/script/jquery.ui.touch-punch.min.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1401283596073" ignored="false" />
+    <file path="/jquery.ui.touch-punch.min.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402330254326" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/fdp/src/main/java/edu/wgu/fdp/service/impl/FdpPropertiesService.java" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1401283644729" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/fdp/src/main/java/edu/wgu/fdp/domain/ApplicationError.java" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1401207720416" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/fdp/src/main/java/edu/wgu/fdp/web/ExceptionListener.java" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1401207739711" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/fdp/src/main/html/edu/wgu/fdp/web/page/Home.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1401283659758" ignored="false" />
+    <file path="/Home.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1401212164971" ignored="false" />
+    <file path="/application.properties" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1401209107964" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/fdp/src/main/resources/application.properties" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1401211357714" ignored="false" />
+    <file path="/a.dummy" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407373581375" ignored="false" />
+    <file path="/FdpPropertiesService.java" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1401211474739" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/fdp/src/main/html/edu/wgu/fdp/web/script/fdp.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1401283622715" ignored="false" />
+    <file path="/fdp.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1401221693423" ignored="false" />
+    <file path="/about.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1401299668706" ignored="false" />
+    <file path="/_headers.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403109018573" ignored="false" />
+    <file path="/_aticle.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403185855103" ignored="false" />
+    <file path="/_media.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403112062543" ignored="false" />
+    <file path="/work.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403542405688" ignored="false" />
+    <file path="/_sub.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1401311619537" ignored="false" />
+    <file path="/_section.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403542431175" ignored="false" />
+    <file path="/LightBox.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403102031729" ignored="false" />
+    <file path="/light-box.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403101984542" ignored="false" />
+    <file path="/_lightbox.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403187885141" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/fdp-new/src/main/html/edu/wgu/fdp/web/script/jquery.ui.touch-punch.min.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402336974025" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/fdp-new/src/main/html/edu/wgu/fdp/web/component/TermListPanel.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402333859026" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/fdp-new/src/main/html/edu/wgu/fdp/internal/web/component/DeveloperToolsPanel.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402334126348" ignored="false" />
+    <file path="/DeveloperToolsPanel.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402334125927" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/fdp-new/src/main/html/edu/wgu/fdp/web/style/degree-plan.css" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402337392135" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/fdp-new/src/main/html/edu/wgu/fdp/web/style/dp.css" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402337384374" ignored="false" />
+    <file path="/dp.css" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402337384374" ignored="false" />
+    <file path="/degree-plan.css" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402337392135" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/prototype/styles/components/_button-group.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402343086894" ignored="false" />
+    <file path="/_button-group.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402945936153" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideSideBack/templates/page.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402343677217" ignored="false" />
+    <file path="/page.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403107309066" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/.idea/workspace.xml" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403202061328" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideSideBack/app.config.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402406221790" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideSideBack/index.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402413582253" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileInlineSub/controllers/PageController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402344113824" ignored="false" />
+    <file path="/PageController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402344162466" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideSideBack/controllers/PageController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402344167313" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideSideBack/styles/components/_message.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402344781054" ignored="false" />
+    <file path="/_message.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402344745179" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideSideBack/styles/navMobileSlideSideBack.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402407248729" ignored="false" />
+    <file path="/navMobileSlideSideBack.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402407226517" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideSideBack/styles/build/navMobileSlideSideBack.min.css" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402411225122" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileHeaderSub/styles/navMobileHeaderSub.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402407927079" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileInlineSub/styles/navMobileInlineSub.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402407914699" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideTopBack/styles/navMobileSlideTopBack.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402407891796" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideTopBack/index.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402413594675" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideTopBack/styles/build/navMobileSlideTopBack.min.css" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402345658978" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideTopBack/app.config.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402407687413" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileInlineSub/app.config.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402407641596" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileInlineSub/index.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402413775205" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileHeaderSub/index.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402413731206" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileHeaderSub/app.config.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402407698850" ignored="false" />
+    <file path="/app.config.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402406218063" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideSideBack/templates/resources.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402430727430" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideSideBack/templates/finaid.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402407461228" ignored="false" />
+    <file path="/resources.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402430790665" ignored="false" />
+    <file path="/finaid.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402407445301" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileHeaderSub/styles/build/navMobileHeaderSub.min.css" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402408013547" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideSideBack/styles/core/_colors.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402409217872" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideSideBack/styles/components/_site-nav.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402416329839" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideSideBack/styles/components/_site-header.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402416317176" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideTopBack/styles/core/_colors.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402409259010" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideTopBack/styles/components/_site-header.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402409295417" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideTopBack/styles/components/_site-nav.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402416402893" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileInlineSub/styles/core/_colors.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402431436360" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileInlineSub/styles/components/_site-header.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402431442482" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileInlineSub/styles/components/_site-nav.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402431419822" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileHeaderSub/styles/core/_colors.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402409610390" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileHeaderSub/styles/components/_site-header.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402413859005" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileHeaderSub/styles/components/_site-nav.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402416598863" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileInlineSub/controllers/NavController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402410646151" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideSideBack/controllers/NavController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402413204031" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideTopBack/controllers/NavController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402413204031" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileInlineSub/styles/build/navMobileInlineSub.min.css" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402415938724" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileSlideTopBack/templates/resources.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402430757348" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileInlineSub/templates/resources.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402430773111" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/navMobileHeaderSub/templates/resources.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402430791184" ignored="false" />
+    <file path="/Powell.svg" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402606488120" ignored="false" />
+    <file path="/*.regexp" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402590275255" ignored="false" />
+    <file path="/nav-test.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402684393231" ignored="false" />
+    <file path="/nav-test.css" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402690472234" ignored="false" />
+    <file path="/nav-test.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402686275346" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/index.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402946129623" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/templates/navigation.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402942753033" ignored="false" />
+    <file path="/navigation.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402937549472" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/styles/components/_site-nav.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403122674528" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/styles/build/combined.min.css" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403122957661" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/controllers/NavController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403122604306" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/styles/components/_logo.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402930361027" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/templates/page.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403107636892" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/styles/combined.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402947756811" ignored="false" />
+    <file path="/combined.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402947609791" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/styles/core/_colors.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403107102014" ignored="false" />
+    <file path="/_button.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402945904200" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/styles/base/_button.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403106673778" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/styles/components/_button-group.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402946961035" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/styles/components/_notifications.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402945968877" ignored="false" />
+    <file path="/_notifications.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402945968877" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/controllers/PageController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402946165421" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/styles/base/_header.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402952442336" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/styles/base/_section.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1402946998490" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/styles/build/global.min.css" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403107187446" ignored="false" />
+    <file path="/_ribbon.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403107123009" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/styles/components/_ribbon.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403107127576" ignored="false" />
+    <file path="/_site-footer.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403192309130" ignored="false" />
+    <file path="/hire.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403193146253" ignored="false" />
+    <file path="/code.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407372888818" ignored="false" />
+    <file path="/_accordion_nav.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403271188215" ignored="false" />
+    <file path="/AccordionController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403204323909" ignored="false" />
+    <file path="/_tab-panel.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407291739599" ignored="false" />
+    <file path="/TabPanel.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407289847609" ignored="false" />
+    <file path="/tab-panel.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407290354991" ignored="false" />
+    <file path="/_iframe.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403538504185" ignored="false" />
+    <file path="/native.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403539547131" ignored="false" />
+    <file path="/_table.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403541721983" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/static-ui/global/css/framework/base/_buttons.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403546038649" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/static-ui/global/css/framework/core/variables/_colors.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403546038649" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/static-ui/global/css/build/global.min.css" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403546038649" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/static-ui/global/css/framework/base/_typography.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403546038649" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/style-guide-ui/docs/templates/framework/components/tab-panel.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403625595962" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/static-ui/global/css/framework/components/_components.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403548627120" ignored="false" />
+    <file path="/_components.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403548626199" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/static-ui/global/css/framework/components/_tab-panel.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403549612347" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/static-ui/global/js/modules/TabPanel.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403621540652" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wgu/style-guide-ui/docs/index.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403619609297" ignored="false" />
+    <file path="/CodeController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407290565115" ignored="false" />
+    <file path="/CodeFactory.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407290701514" ignored="false" />
+    <file path="/_code.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407291391162" ignored="false" />
+    <file path="/_form.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407373309908" ignored="false" />
+    <file path="$PROJECT_DIR$/styles/images/name.svg" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407374003390" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="professional" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="code.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tpl/code.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-7.228404">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Portfolio" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/NewPortfolio/code/filter/native.html" />
+        <option value="$PROJECT_DIR$/NewPortfolio/styles/els/_table.scss" />
+        <option value="$PROJECT_DIR$/NewPortfolio/tpl/work.html" />
+        <option value="$PROJECT_DIR$/NewPortfolio/styles/els/_section.scss" />
+        <option value="$PROJECT_DIR$/NewPortfolio/scripts/directives/TabPanel.js" />
+        <option value="$PROJECT_DIR$/NewPortfolio/tpl/tab-panel.html" />
+        <option value="$PROJECT_DIR$/NewPortfolio/scripts/controllers/CodeController.js" />
+        <option value="$PROJECT_DIR$/NewPortfolio/scripts/factories/CodeFactory.js" />
+        <option value="$PROJECT_DIR$/NewPortfolio/styles/portfolio.scss" />
+        <option value="$PROJECT_DIR$/NewPortfolio/styles/comps/_tab-panel.scss" />
+        <option value="$PROJECT_DIR$/NewPortfolio/styles/els/_code.scss" />
+        <option value="$PROJECT_DIR$/NewPortfolio/index.html" />
+        <option value="$PROJECT_DIR$/NewPortfolio/code/usBudget/styles/el/_form.scss" />
+        <option value="$PROJECT_DIR$/NewPortfolio/code/usBudget/styles/comps/_site-header.scss" />
+        <option value="$PROJECT_DIR$/NewPortfolio/tpl/code.html" />
+        <option value="$PROJECT_DIR$/NewPortfolio/code/usBudget/scripts/d3.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1064" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="professional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="professional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="professional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="professional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="professional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="professional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="professional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="professional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="professional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\stguser\Documents\Projects\kerrywpowell\professional\NewPortfolio" />
+      <recent name="C:\Users\stguser\Documents\Projects\kerrywpowell\professional\NewPortfolio\styles\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stguser\Documents\Projects\kerrywpowell\professional\NewPortfolio\scripts" />
+      <recent name="C:\Users\stguser\Documents\Projects\kerrywpowell\professional\styles\base" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StatisticProjectComponent">
+    <option name="excludeCompilerOutput" value="true" />
+    <option name="excludeIdea9ArtifactDirectory" value="true" />
+    <option name="excludeTargetDirectories" value="true" />
+    <option name="activateWhenOpenProject" value="true" />
+    <option name="excludedDirectories">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="fileTypes" value="class;svn-base;svn-work;Extra;gif;png;jpg;jpeg;bmp;tga;tiff;ear;war;zip;jar;iml;iws;ipr;bz2;gz;" />
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f241c083-7324-4914-a8d0-529fcbfc66fa" name="Default" comment="" />
+      <created>1393602294783</created>
+      <updated>1393602294783</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28495198" sideWeight="0.82" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tpl/code.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-7.228404">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

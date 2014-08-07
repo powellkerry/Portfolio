@@ -1,0 +1,11 @@
+<div class="tabpanel">
+    <div ng-if="side" class="tabs side">
+        <span class="tab" ng-click="activateTab($event, tab.tab)" ng-repeat="tab in tabs" data-source="{{tab.src}}">{{tab.label}}</span>
+    </div>
+    <div ng-if="!side" class="tabs">
+        <span class="tab" ng-click="activateTab($event, tab.tab)" ng-repeat="tab in tabs" data-source="{{tab.src}}">{{tab.label}}</span>
+    </div>
+    <div class="content" ng-transclude="">
+
+    </div>
+</div>

@@ -1,0 +1,10 @@
+<img class="view-images" title="view screenshots" ng-click="open($event)" src="/styles/images/images.svg"/>
+<div class="modal" ng-click="modalClick($event)">
+    <button class="close" ng-click="close()">Close</button>
+    <button class="prev" title="Previous" ng-click="move('back')">Back</button>
+    <div class="lightbox">
+        <h2 class="title">{{title}} ({{imageFiles.indexOf(selectedFile) + 1}}/{{imageFiles.length}})</h2>
+        <img class="current-image" ng-src="{{selectedFile}}"/>
+    </div>
+    <button class="next" title="Next" ng-click="move('next')">Next</button>
+</div>

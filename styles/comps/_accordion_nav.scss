@@ -1,0 +1,74 @@
+.accordion-nav {
+  color: $color-action;
+
+  ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+     li {
+       padding: 10px;
+       border: 1px solid $color-action;
+       border-top: 0;
+       cursor: pointer;
+       -webkit-tap-highlight-color: transparent;
+
+       &:first-child {
+         border-top: 1px solid $color-action;
+       }
+
+       &:hover {
+         background: $color-action;
+         color: $color-background;
+       }
+
+       &.expandable {
+         position: relative;
+
+         &:hover:after {
+           background: url(../images/expander-hover.svg);
+           background-size: 100%;
+         }
+
+         &:after {
+           content: '';
+           background: url(../images/expander.svg);
+           position: absolute;
+           right: 10px;
+           top: 5px;
+           width: 25px;
+           height: 25px;
+           background-size: 100%;
+         }
+
+         .tabpanel {
+           display: none;
+           overflow: hidden;
+           color: $color-action;
+         }
+         &.expanded {
+           background: $color-action;
+           color: $color-background;
+
+           .label {
+             margin-bottom: 20px;
+             display: inline-block;
+           }
+
+
+           &:after {
+             background: url(../images/expander-hover.svg);
+             background-size: 100%;
+             -webkit-transform: rotate(180deg);
+             transform: rotate(180deg);
+           }
+
+           .tabpanel {
+             display: block;
+           }
+         }
+
+       }
+     }
+  }
+}

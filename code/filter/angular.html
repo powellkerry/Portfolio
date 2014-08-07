@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="AngularFilter">
+<head>
+    <title>Angular Filter</title>
+    <link rel="stylesheet" href="../../styles/build/portfolio.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+    <script src="filter.js"></script>
+    <script src="angular.js"></script>
+</head>
+<body ng-controller="FilterController">
+<div class="filter-container">
+    <input type="search" ng-model="filter" placeholder="Begin typing to filter">
+</div>
+<table>
+    <thead>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Order</th>
+        <th>Years Served</th>
+        <th>Birth State</th>
+        <th>Party</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="president in presidents | filter:filter">
+        <td>{{president.firstName}}</td>
+        <td>{{president.lastName}}</td>
+        <td>{{president.order}}</td>
+        <td>{{president.years}}</td>
+        <td>{{president.birthplace}}</td>
+        <td>{{president.party}}</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
