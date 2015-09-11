@@ -1,52 +1,109 @@
-table {
-  border-collapse: collapse;
+.table-responsive {
+  .table {
+    thead:not(.sort-header) {
+      @media (max-width: 60rem) {
+        display: none;
+      }
+    }
 
-  thead {
-    background: $color-secondary;
-    border-bottom: 3px solid $color-background;
-    color: $color-background;
+    thead {
 
-    th {
-      text-align: left;
-      padding: 10px;
-      position: relative;
-      cursor: pointer;
+      &.sort-header {
+        @media (max-width: 60rem) {
+          padding-left: 60px;
+          display: block;
+          position: relative;
 
-      &.sorter {
-        padding-right: 40px;
-        &.asc:before {
-          content: '';
-          background: url(../images/expander-hover.svg) no-repeat;
-          width: 20px;
-          height: 20px;
-          background-size: 100%;
-          position: absolute;
-          right: 5px;
-          top: 30%;
-          -webkit-transform: rotate(180deg);
         }
 
-        &.desc:before {
-          content: '';
-          background: url(../images/expander-hover.svg) no-repeat;
-          width: 20px;
-          height: 20px;
-          background-size: 100%;
-          position: absolute;
-          right: 5px;
-          top: 30%;
+        &:before {
+          @media (max-width: 60rem) {
+            content: 'Sort:';
+            position: absolute;
+            left: 20px;
+            font-weight: bold;
+            width: 100px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            padding-top: 10px;
+          }
+        }
+
+        tr {
+          @media (max-width: 60rem) {
+            display: block;
+          }
+        }
+
+        th {
+          @media (max-width: 60rem) {
+            display: inline-block;
+            padding: 5px 10px;
+            padding-right: 30px;
+            border: 1px solid lighten($color-black, 65%);
+            border-radius: 5px;
+            margin: 5px;
+          }
+        }
+      }
+
+      th {
+        &.sorter {
+          cursor: pointer;
+          position: relative;
+
+          &.asc {
+            &:after {
+              content: '';
+              position: absolute;
+              right: 5px;
+              top: calc(50% - 10px);
+              border-bottom: 5px solid $color-blue;
+              border-left: 5px solid transparent;
+              border-right: 5px solid transparent;
+              border-top: 5px solid transparent;
+            }
+          }
+
+          &.desc {
+            &:after {
+              content: '';
+              position: absolute;
+              right: 5px;
+              top: calc(50% - 2.5px);
+              border-top: 5px solid $color-blue;
+              border-left: 5px solid transparent;
+              border-right: 5px solid transparent;
+              border-bottom: 5px solid transparent;
+            }
+          }
         }
       }
     }
-  }
-  tbody {
-    tr:nth-child(odd) {
-      background: $color-primary;
-      color: $color-background;
-    }
 
-    td {
-      padding: 10px;
+    tbody {
+      tr {
+        td {
+          @media (max-width: 60rem) {
+            display: block;
+            padding-left: 130px;
+            position: relative;
+          }
+          &:before {
+            @media (max-width: 60rem) {
+              content: attr(data-header);
+              position: absolute;
+              left: 20px;
+              font-weight: bold;
+              width: 100px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+            }
+          }
+        }
+      }
     }
   }
 }

@@ -1,15 +1,12 @@
 .interest-pic {
-  position: absolute;
-  top: 20px;
-  right: 0px;
-  z-index: -1;
-/*  -webkit-transform: rotate(30deg);
-  transform: rotate(30deg);*/
+  float: right;
   max-width: 300px;
   max-height: 300px;
+  opacity: .3;
 }
 .view-images {
   vertical-align: middle;
   margin-left: 10px;
   cursor: pointer;
+  width: 40px;
 }

@@ -1,28 +1,34 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Native Sort</title>
-    <link rel="stylesheet" href="../../styles/build/portfolio.min.css">
-    <script src="/code/sort/sort.js"></script>
-    <script src="/code/sort/native.js"></script>
-</head>
-<body>
-    <table>
-        <thead>
-            <tr>
-                <th class="sorter" onclick="native.sort(event,'firstName')">First Name</th>
-                <th class="sorter" onclick="native.sort(event,'lastName')">Last Name</th>
-                <th class="sorter asc" onclick="native.sort(event,'order')">Order</th>
-                <th class="sorter" onclick="native.sort(event,'years')">Years Served</th>
-                <th class="sorter" onclick="native.sort(event,'birthPlace')">Birth State</th>
-                <th class="sorter" onclick="native.sort(event,'party')">Party</th>
-            </tr>
-        </thead>
-        <tbody id="nativeTable">
+<html lang="en-US">
+    <head>
+        <title>Native Sort</title>
+        <link rel="stylesheet" href="../../styles/build/bootstrap-4.min.css">
+        <link rel="stylesheet" href="../../styles/build/portfolio.min.css">
+        <script src="../../code/sort/sort.js"></script>
+        <script src="../../code/sort/native.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="margin-bottom--20">Native Array Sorter</h1>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead class="sort-header">
+                        <tr>
+                            <th class="sorter" onclick="native.sort(event,'firstName')">First Name</th>
+                            <th class="sorter" onclick="native.sort(event,'lastName')">Last Name</th>
+                            <th class="sorter asc" onclick="native.sort(event,'order')">Order</th>
+                            <th class="sorter" onclick="native.sort(event,'years')">Years Served</th>
+                            <th class="sorter" onclick="native.sort(event,'birthplace')">Birth State</th>
+                            <th class="sorter" onclick="native.sort(event,'party')">Party</th>
+                        </tr>
+                    </thead>
+                    <tbody id="nativeTable">
 
-        </tbody>
+                    </tbody>
 
-    </table>
+                </table>
+            </div>
+        </div>
 
-</body>
+    </body>
 </html>

@@ -13,8 +13,10 @@
 @import "comps/site-footer";
 @import "comps/lightbox";
 @import "comps/site-nav";
-@import "comps/accordion_nav";
+@import "comps/accordion";
 @import "comps/tab-panel";
+@import "comps/forms";
+@import "helpers/margins";
 
 html {
   width: 100%;
@@ -26,18 +28,10 @@ html {
     position: relative;
     width: 100%;
     overflow: hidden;
-    background: $color-background;
-    color: $color-primary;
+    background: $color-white;
+    color: $color-black;
     font-family: $font-family;
-    font-size: 18px;
+    font-size: 1rem;
 
-    .site-container {
-      margin: 0 20px;
-      position: relative;
-      max-width: 1000px;
-      margin: 0px auto;
-      padding: 10px;
-      box-sizing: border-box;
-    }
   }
 }

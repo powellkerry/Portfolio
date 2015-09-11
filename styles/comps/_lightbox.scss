@@ -13,8 +13,8 @@
   }
 
   button {
-    background: $color-action;
-    color: $color-background;
+    background: $color-white;
+    color: $color-blue;
     text-transform: uppercase;
     font-weight: bold;
     height: 38px;
@@ -25,47 +25,46 @@
     padding: 0 10px;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
-    border: 1px solid;
-    border-bottom: none;
+    z-index: 2000;
+    position: absolute;
+    border-radius: 5px 5px 0 0;
 
     &:active {
-      background: $color-primary;
+      background: $color-blue;
+      color: $color-white;
     }
 
   }
 
   .close {
-    position: absolute;
     top: 0;
     right: 0;
-    border-bottom: 1px solid $color-background;
-    border-right: 0;
-    border-top: 0;
+    border: none;
+    opacity: 1;
     border-radius: 0 0 0 5px;
 
-    &:active {
-      border-bottom-color: $color-background;
+    &:focus, &:hover {
+      color: $color-blue;
+    };
+    &:active{
+      &:hover, &:focus {
+        color: $color-white;
+      };
     }
   }
 
   .prev {
-    position: absolute;
     top: 30%;
     left: -26px;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-    border-radius: 5px 5px 0 0;
-    z-index: 2000;
   }
 
   .next {
-    position: absolute;
     top: 30%;
     right: -26px;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    border-radius: 5px 5px 0 0;
-    z-index: 2000;
   }
 
 
@@ -84,9 +83,9 @@
     .title {
       margin: 0;
       background: none;
-      color: $color-secondary;
+      color: $color-green;
       font-weight: bold;
-      font-size: 12px;
+      font-size: 1rem;
       position: absolute;
       padding: 5px;
       white-space: nowrap;

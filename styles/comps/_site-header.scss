@@ -1,9 +1,8 @@
 .site-header {
-  padding: 10px;
-  color: #FFF;
-  border-bottom: 2px solid $color-action;
-  height: 85px;
-  max-width: 1000px;
-  margin: 0px auto;
-  box-sizing: border-box;
+    margin-bottom: 80px;
+    border-bottom: 2px solid $color-green;
+
+    @media (min-width: 62em) {
+        height: 6.3rem
+    }
 }

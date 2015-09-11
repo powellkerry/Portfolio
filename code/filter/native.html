@@ -1,29 +1,42 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Native Filter</title>
-    <link rel="stylesheet" href="../../styles/build/portfolio.min.css">
-    <script src="filter.js"></script>
-    <script src="native.js"></script>
-</head>
-<body>
-    <div class="filter-container">
-        <input type="search" id="filter" placeholder="Begin typing to filter" onkeyup="native.filter(event)">
-    </div>
-    <table>
-        <thead>
-        <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Order</th>
-            <th>Years Served</th>
-            <th>Birth State</th>
-            <th>Party</th>
-        </tr>
-        </thead>
-        <tbody id="nativeTable">
+<html lang="en-US">
+    <head>
+        <title>Native Filter</title>
+        <link rel="stylesheet" href="../../styles/build/bootstrap-4.min.css">
+        <link rel="stylesheet" href="../../styles/build/portfolio.min.css">
+        <script src="filter.js"></script>
+        <script src="native.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="margin-top--30">Native JS Filter</h1>
+            <div class="row margin-bottom--20">
+                <div class="col-xs-10 col-md-6 form-group">
+                    <label class="form-control-label col-xs-4" for="filter">Search</label>
+                    <div class="col-xs-8">
+                        <input type="search" class="form-control" id="filter" placeholder="Begin typing to filter" onkeyup="native.filter(event)">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Order</th>
+                                <th>Years Served</th>
+                                <th>Birth State</th>
+                                <th>Party</th>
+                            </tr>
+                        </thead>
+                        <tbody id="nativeTable">
 
-        </tbody>
-    </table>
-</body>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

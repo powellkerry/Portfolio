@@ -1,37 +1,42 @@
 <!DOCTYPE html>
-<html ng-app="AngularSort">
-<head>
-    <title>Angular Sort</title>
-    <link rel="stylesheet" href="../../styles/build/portfolio.min.css">
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
-    <script src="sort.js"></script>
-    <script src="angular.js"></script>
-</head>
-<body ng-controller="SortController">
-<table>
-    <thead>
-    <tr>
-        <th class="sorter" ng-click="sort($event,'firstName')">First Name</th>
-        <th class="sorter" ng-click="sort($event,'lastName')">Last Name</th>
-        <th class="sorter asc" ng-click="sort($event,'order')">Order</th>
-        <th class="sorter" ng-click="sort($event,'years')">Years Served</th>
-        <th class="sorter" ng-click="sort($event,'birthPlace')">Birth State</th>
-        <th class="sorter" ng-click="sort($event,'party')">Party</th>
-    </tr>
-    </thead>
-    <tbody>
-        <tr ng-repeat="president in presidents">
-            <td>{{president.firstName}}</td>
-            <td>{{president.lastName}}</td>
-            <td>{{president.order}}</td>
-            <td>{{president.years}}</td>
-            <td>{{president.birthplace}}</td>
-            <td>{{president.party}}</td>
-        </tr>
-    </tbody>
+<html ng-app="AngularSort" lang="en-US">
+    <head>
+        <title>Angular Sort</title>
+        <link rel="stylesheet" href="../../styles/build/bootstrap-4.min.css">
+        <link rel="stylesheet" href="../../styles/build/portfolio.min.css">
+        <script src="../../scripts/build/jquery-2.1.4.min.js"></script>
+        <script src="../../scripts/build/angular.min.js"></script>
+        <script src="sort.js"></script>
+        <script src="angular.js"></script>
+    </head>
+    <body ng-controller="SortController">
+        <div class="container">
+            <h1 class="margin-bottom--30">Angular Sort</h1>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead class="sort-header">
+                    <tr>
+                        <th class="sorter" ng-class="{'asc': sortArray.indexOf('firstName') !=-1,'desc': sortArray.indexOf('-firstName') !=-1 }" ng-click="updateSort($event,'firstName')">First Name</th>
+                        <th class="sorter" ng-class="{'asc': sortArray.indexOf('lastName') !=-1,'desc': sortArray.indexOf('-lastName') !=-1 }" ng-click="updateSort($event,'lastName')">Last Name</th>
+                        <th class="sorter" ng-class="{'asc': sortArray.indexOf('order') !=-1,'desc': sortArray.indexOf('-order') !=-1 }" ng-click="updateSort($event,'order')">Order</th>
+                        <th class="sorter" ng-class="{'asc': sortArray.indexOf('years') !=-1,'desc': sortArray.indexOf('-years') !=-1 }" ng-click="updateSort($event,'years')">Years Served</th>
+                        <th class="sorter" ng-class="{'asc': sortArray.indexOf('birthplace') !=-1,'desc': sortArray.indexOf('-birthplace') !=-1 }" ng-click="updateSort($event,'birthPlace')">Birth State</th>
+                        <th class="sorter" ng-class="{'asc': sortArray.indexOf('party') !=-1,'desc': sortArray.indexOf('-party') !=-1 }" ng-click="updateSort($event,'party')">Party</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="president in presidents | orderBy: sortArray">
+                            <td data-header="First Name">{{president.firstName}}</td>
+                            <td data-header="Last Name">{{president.lastName}}</td>
+                            <td data-header="Order">{{president.order}}</td>
+                            <td data-header="Years">{{president.years}}</td>
+                            <td data-header="Birth State">{{president.birthplace}}</td>
+                            <td data-header="Party">{{president.party}}</td>
+                        </tr>
+                    </tbody>
 
-</table>
-
-</body>
+                </table>
+            </div>
+        </div>
+    </body>
 </html>

@@ -4,11 +4,11 @@
     <list default="true" id="f241c083-7324-4914-a8d0-529fcbfc66fa" name="Default" comment="" />
     <ignored path="professional.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407374066837" ignored="false" />
+    <file path="/Dummy.txt" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1420748448112" ignored="false" />
     <file path="$PROJECT_DIR$/../wardmission/index.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393618301176" ignored="false" />
     <file path="$PROJECT_DIR$/../wardmission/scripts/controllers/WardMissionaryController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393609512449" ignored="false" />
     <file path="/WardMissionaryController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393609787997" ignored="false" />
-    <file path="/index.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407284580164" ignored="false" />
+    <file path="/index.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407376110754" ignored="false" />
     <file path="$PROJECT_DIR$/../wardmission/scripts/controllers/AuthenticationController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393609668538" ignored="false" />
     <file path="/AuthenticationController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393620926862" ignored="false" />
     <file path="$PROJECT_DIR$/../wardmission/controllers/WardMissionaryController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1393609787997" ignored="false" />
@@ -55,7 +55,7 @@
     <file path="/_article.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1398282633832" ignored="false" />
     <file path="/_helpers.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1398282725587" ignored="false" />
     <file path="/_code-viewer.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1398283283521" ignored="false" />
-    <file path="/Portfolio.config.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403193381497" ignored="false" />
+    <file path="/Portfolio.config.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1420748670441" ignored="false" />
     <file path="/home.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1399557805615" ignored="false" />
     <file path="/portfolio.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407291227783" ignored="false" />
     <file path="/_site-nav.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403189929451" ignored="false" />
@@ -78,7 +78,7 @@
     <file path="/_headers.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403109018573" ignored="false" />
     <file path="/_aticle.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403185855103" ignored="false" />
     <file path="/_media.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403112062543" ignored="false" />
-    <file path="/work.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403542405688" ignored="false" />
+    <file path="/work.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1420749461343" ignored="false" />
     <file path="/_sub.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1401311619537" ignored="false" />
     <file path="/_section.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403542431175" ignored="false" />
     <file path="/LightBox.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403102031729" ignored="false" />
@@ -171,8 +171,8 @@
     <file path="$PROJECT_DIR$/../../wgu/wgu-prototypes/combined/styles/components/_ribbon.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403107127576" ignored="false" />
     <file path="/_site-footer.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403192309130" ignored="false" />
     <file path="/hire.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403193146253" ignored="false" />
-    <file path="/code.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407372888818" ignored="false" />
-    <file path="/_accordion_nav.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403271188215" ignored="false" />
+    <file path="/code.html" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407378284021" ignored="false" />
+    <file path="/_accordion_nav.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407378961074" ignored="false" />
     <file path="/AccordionController.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1403204323909" ignored="false" />
     <file path="/_tab-panel.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407291739599" ignored="false" />
     <file path="/TabPanel.js" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407289847609" ignored="false" />
@@ -195,6 +195,7 @@
     <file path="/_code.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407291391162" ignored="false" />
     <file path="/_form.scss" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407373309908" ignored="false" />
     <file path="$PROJECT_DIR$/styles/images/name.svg" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407374003390" ignored="false" />
+    <file path="$PROJECT_DIR$/styles/build/portfolio.min.css" changelist="f241c083-7324-4914-a8d0-529fcbfc66fa" time="1407379049968" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,10 +256,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="code.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="code.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tpl/code.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-7.228404">
+            <state line="270" column="41" selection-start="12562" selection-end="12562" vertical-scroll-proportion="-10.735294">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Portfolio.config.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portfolio.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="25" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="work.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tpl/work.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="22" selection-start="315" selection-end="315" vertical-scroll-proportion="0.33834586">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_accordion_nav.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/comps/_accordion_nav.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="7" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_colors.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/vars/_colors.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="1" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="55" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -282,11 +328,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/NewPortfolio/code/filter/native.html" />
-        <option value="$PROJECT_DIR$/NewPortfolio/styles/els/_table.scss" />
-        <option value="$PROJECT_DIR$/NewPortfolio/tpl/work.html" />
-        <option value="$PROJECT_DIR$/NewPortfolio/styles/els/_section.scss" />
-        <option value="$PROJECT_DIR$/NewPortfolio/scripts/directives/TabPanel.js" />
         <option value="$PROJECT_DIR$/NewPortfolio/tpl/tab-panel.html" />
         <option value="$PROJECT_DIR$/NewPortfolio/scripts/controllers/CodeController.js" />
         <option value="$PROJECT_DIR$/NewPortfolio/scripts/factories/CodeFactory.js" />
@@ -298,6 +339,11 @@
         <option value="$PROJECT_DIR$/NewPortfolio/code/usBudget/styles/comps/_site-header.scss" />
         <option value="$PROJECT_DIR$/NewPortfolio/tpl/code.html" />
         <option value="$PROJECT_DIR$/NewPortfolio/code/usBudget/scripts/d3.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/tpl/code.html" />
+        <option value="$PROJECT_DIR$/styles/comps/_accordion_nav.scss" />
+        <option value="$PROJECT_DIR$/Portfolio.config.js" />
+        <option value="$PROJECT_DIR$/tpl/work.html" />
       </list>
     </option>
   </component>
@@ -336,7 +382,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -351,7 +396,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="professional" />
+              <option name="myItemId" value="Portfolio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,7 +406,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="professional" />
+              <option name="myItemId" value="Portfolio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -375,34 +420,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="professional" />
+              <option name="myItemId" value="Portfolio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="professional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="professional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -418,8 +446,8 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -444,6 +472,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -474,19 +515,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -500,6 +528,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -521,13 +556,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -595,7 +623,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28495198" sideWeight="0.82" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28388473" sideWeight="0.82" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -668,7 +696,91 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tpl/code.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-7.228404">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/comps/_accordion_nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="7" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/vars/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="1" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="55" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/code.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="55" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/code.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="55" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/vars/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="1" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/comps/_accordion_nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="7" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/code.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="270" column="41" selection-start="12562" selection-end="12562" vertical-scroll-proportion="-10.735294">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="315" selection-end="315" vertical-scroll-proportion="0.33834586">
           <folding />
         </state>
       </provider>

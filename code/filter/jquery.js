@@ -9,12 +9,12 @@ var jquery = {
         $.each(this.presidents, function (index, president) {
             rows = rows +
                 '<tr>' +
-                '<td>' + president.firstName + '</td>' +
-                '<td>' + president.lastName + '</td>' +
-                '<td>' + president.order + '</td>' +
-                '<td>' + president.years + '</td>' +
-                '<td>' + president.birthplace + '</td>' +
-                '<td>' + president.party + '</td>' +
+                '<td data-header="First Name">' + president.firstName + '</td>' +
+                '<td data-header="Last Name">' + president.lastName + '</td>' +
+                '<td data-header="Order">' + president.order + '</td>' +
+                '<td data-header="Years">' + president.years + '</td>' +
+                '<td data-header="Birth Place">' + president.birthplace + '</td>' +
+                '<td data-header="Party">' + president.party + '</td>' +
                 '</tr>';
         });
 

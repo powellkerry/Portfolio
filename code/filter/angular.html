@@ -1,39 +1,51 @@
 <!DOCTYPE html>
-<html ng-app="AngularFilter">
-<head>
-    <title>Angular Filter</title>
-    <link rel="stylesheet" href="../../styles/build/portfolio.min.css">
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
-    <script src="filter.js"></script>
-    <script src="angular.js"></script>
-</head>
-<body ng-controller="FilterController">
-<div class="filter-container">
-    <input type="search" ng-model="filter" placeholder="Begin typing to filter">
-</div>
-<table>
-    <thead>
-    <tr>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Order</th>
-        <th>Years Served</th>
-        <th>Birth State</th>
-        <th>Party</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr ng-repeat="president in presidents | filter:filter">
-        <td>{{president.firstName}}</td>
-        <td>{{president.lastName}}</td>
-        <td>{{president.order}}</td>
-        <td>{{president.years}}</td>
-        <td>{{president.birthplace}}</td>
-        <td>{{president.party}}</td>
-    </tr>
-    </tbody>
-</table>
+<html ng-app="AngularFilter" lang="en-US">
+    <head>
+        <title>Angular Filter</title>
+        <link rel="stylesheet" href="../../styles/build/bootstrap-4.min.css">
+        <link rel="stylesheet" href="../../styles/build/portfolio.min.css">
 
-</body>
+        <script src="../../scripts/build/jquery-2.1.4.min.js"></script>
+        <script src="../../scripts/build/angular.min.js"></script>
+        <script src="angular.js"></script>
+    </head>
+    <body ng-controller="FilterController">
+        <div class="container">
+            <h1 class="margin-top--30">AngularJS Filter</h1>
+            <div class="row margin-bottom--20">
+                <div class="col-xs-10 col-md-6 form-group">
+                    <label class="form-control-label col-xs-4" for="filter">Search</label>
+                    <div class="col-xs-8">
+                        <input id="filter" class="form-control" type="search" ng-model="filter" placeholder="Begin typing to search">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Order</th>
+                                <th>Years Served</th>
+                                <th>Birth State</th>
+                                <th>Party</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="president in presidents | filter : filter">
+                                <td data-header="First Name">{{president.firstName}}</td>
+                                <td data-header="Last Name">{{president.lastName}}</td>
+                                <td data-header="Order">{{president.order}}</td>
+                                <td data-header="Years Served">{{president.years}}</td>
+                                <td data-header="Birth Place">{{president.birthplace}}</td>
+                                <td data-header="Party">{{president.party}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

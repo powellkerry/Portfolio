@@ -1,285 +1,57 @@
-<h2>Code Samples</h2>
-<nav class="accordion-nav" ng-controller="AccordionController">
-    <ul ng-controller="CodeController">
-        <li class="expandable" ng-click="showOrHide($event)">
-            <span class="label">Array Filter</span>
-            <tab-panel data-tabs="
-                [{
-                    'label': 'Native JS',
-                    'tab': 'filter-native'
-                },{
-                    'label': 'AngularJS',
-                    'tab': 'filter-angular'
-                },{
-                    'label': 'jQuery',
-                    'tab': 'filter-jquery'
-                }]
-            ">
-                <tab-panel data-id="filter-native" side tab-click-fn="loadCode($event)" data-tabs="
-                    [{
-                        'label': 'filter.js',
-                        'tab': 'native-filter',
-                        'src' : '/code/filter/filter.js'
-                    },{
-                        'label': 'native.js',
-                        'tab': 'native-filter-js',
-                        'src' : '/code/filter/native.js'
-                    },{
-                        'label': 'native.html',
-                        'tab': 'native-filter-html',
-                        'src' : '/code/filter/native.html'
-                    },{
-                        'label': 'preview',
-                        'tab': 'native-filter-preview'
-                    }]
-                ">
-                    <code data-id="native-filter" data-src="filter.js">{{code}}</code>
-                    <code data-id="native-filter-js" data-src="native.js">{{code}}</code>
-                    <code data-id="native-filter-html" data-src="native.html">{{code}}</code>
-                    <iframe data-id="native-filter-preview" src="/code/filter/native.html"></iframe>
-                </tab-panel>
-                <tab-panel data-id="filter-angular" side tab-click-fn="loadCode($event)" data-tabs="
-                    [{
-                        'label': 'filter.js',
-                        'tab': 'angular-filter',
-                        'src' : '/code/filter/filter.js'
-                    },{
-                        'label': 'angular.js',
-                        'tab': 'angular-filter-js',
-                        'src' : '/code/filter/angular.js'
-                    },{
-                        'label': 'angular.html',
-                        'tab': 'angular-filter-html',
-                        'src' : '/code/filter/angular.html'
-                    },{
-                        'label': 'preview',
-                        'tab': 'angular-filter-preview'
-                    }]
-                ">
-                    <code data-id="angular-filter" data-src="filter.js">{{code}}</code>
-                    <code data-id="angular-filter-js" data-src="angular.js">{{code}}</code>
-                    <code data-id="angular-filter-html" data-src="angular.html">{{code}}</code>
-                    <iframe data-id="angular-filter-preview" src="/code/filter/angular.html"></iframe>
-                </tab-panel>
-                <tab-panel data-id="filter-jquery" side tab-click-fn="loadCode($event)" data-tabs="
-                    [{
-                        'label': 'filter.js',
-                        'tab': 'jquery-filter',
-                        'src' : '/code/filter/filter.js'
-                    },{
-                        'label': 'jquery.js',
-                        'tab': 'jquery-filter-js',
-                        'src' : '/code/filter/jquery.js'
-                    },{
-                        'label': 'jquery.html',
-                        'tab': 'jquery-filter-html',
-                        'src' : '/code/filter/jquery.html'
-                    },{
-                        'label': 'preview',
-                        'tab': 'jquery-filter-preview'
-                    }]
-                ">
-                    <code data-id="jquery-filter" data-src="filter.js">{{code}}</code>
-                    <code data-id="jquery-filter-js" data-src="jquery.js">{{code}}</code>
-                    <code data-id="jquery-filter-html" data-src="jquery.html">{{code}}</code>
-                    <iframe data-id="jquery-filter-preview" src="/code/filter/jquery.html"></iframe>
-                </tab-panel>
-            </tab-panel>
-        </li>
-        <li class="expandable" ng-click="showOrHide($event)">
-            <span class="label">Array Sorter</span>
-            <tab-panel data-tabs="
-                [{
-                    'label': 'Native JS',
-                    'tab': 'sorter-native'
-                },{
-                    'label': 'AngularJS',
-                    'tab': 'sorter-angular'
-                },{
-                    'label': 'jQuery',
-                    'tab': 'sorter-jquery'
-                }]
-            ">
-                <tab-panel data-id="sorter-native" side tab-click-fn="loadCode($event)" data-tabs="
-                    [{
-                        'label': 'sort.js',
-                        'tab': 'native-sort',
-                        'src' : '/code/sort/sort.js'
-                    },{
-                        'label': 'native.js',
-                        'tab': 'native-sort-js',
-                        'src' : '/code/sort/native.js'
-                    },{
-                        'label': 'native.html',
-                        'tab': 'native-sort-html',
-                        'src' : '/code/sort/native.html'
-                    },{
-                        'label': 'preview',
-                        'tab': 'native-sort-preview'
-                    }]
-                ">
-                    <code data-id="native-sort" data-src="sort.js">{{code}}</code>
-                    <code data-id="native-sort-js" data-src="native.js">{{code}}</code>
-                    <code data-id="native-sort-html" data-src="native.html">{{code}}</code>
-                    <iframe data-id="native-sort-preview" src="/code/sort/native.html"></iframe>
-                </tab-panel>
-                <tab-panel data-id="sorter-angular" side tab-click-fn="loadCode($event)" data-tabs="
-                    [{
-                        'label': 'sort.js',
-                        'tab': 'angular-sort',
-                        'src' : '/code/sort/sort.js'
-                    },{
-                        'label': 'angular.js',
-                        'tab': 'angular-sort-js',
-                        'src' : '/code/sort/angular.js'
-                    },{
-                        'label': 'angular.html',
-                        'tab': 'angular-sort-html',
-                        'src' : '/code/sort/angular.html'
-                    },{
-                        'label': 'preview',
-                        'tab': 'angular-preview'
-                    }]
-                ">
-                    <code data-id="angular-sort" data-src="sort.js">{{code}}</code>
-                    <code data-id="angular-sort-js" data-src="angular.js">{{code}}</code>
-                    <code data-id="angular-sort-html" data-src="angular.html">{{code}}</code>
-                    <iframe data-id="angular-preview" src="/code/sort/angular.html"></iframe>
-                </tab-panel>
+<article>
+    <h1>Code Samples</h1>
 
-                <tab-panel data-id="sorter-jquery" side tab-click-fn="loadCode($event)" data-tabs="
-                    [{
-                        'label': 'sort.js',
-                        'tab': 'jquery-sort',
-                        'src' : '/code/sort/sort.js'
-                    },{
-                        'label': 'jquery.js',
-                        'tab': 'jquery-sort-js',
-                        'src' : '/code/sort/jquery.js'
-                    },{
-                        'label': 'jquery.html',
-                        'tab': 'jquery-sort-html',
-                        'src' : '/code/sort/jquery.html'
-                    },{
-                        'label': 'preview',
-                        'tab': 'jquery-sort-preview'
-                    }]
-                ">
-                    <code data-id="jquery-sort" data-src="sort.js">{{code}}</code>
-                    <code data-id="jquery-sort-js" data-src="jquery.js">{{code}}</code>
-                    <code data-id="jquery-sort-html" data-src="jquery.html">{{code}}</code>
-                    <iframe data-id="jquery-sort-preview" src="/code/sort/jquery.html"></iframe>
-                </tab-panel>
-            </tab-panel>
-        </li>
-        <li class="expandable" ng-click="showOrHide($event)">
-            <span class="label">Income Tax Calculator</span>
-            <tab-panel data-tabs="
-                [{
-                    'label': 'Native JS',
-                    'tab': 'tax-native'
-                },{
-                    'label': 'AngularJS',
-                    'tab': 'tax-angular'
-                },{
-                    'label': 'jQuery',
-                    'tab': 'tax-jquery'
-                }]
-            ">
-                <tab-panel data-id="tax-native" side tab-click-fn="loadCode($event)" data-tabs="
-                    [{
-                        'label': 'native.js',
-                        'tab': 'native-tax-js',
-                        'src' : '/code/tax/native.js'
-                    },{
-                        'label': 'native.html',
-                        'tab': 'native-tax-html',
-                        'src' : '/code/tax/native.html'
-                    },{
-                        'label': 'Preview',
-                        'tab': 'native-tax-preview'
-                    }]
-                ">
-                    <code data-id="native-tax-js" data-src="native.js">{{code}}</code>
-                    <code data-id="native-tax-html" data-src="native.html">{{code}}</code>
-                    <iframe data-id="native-tax-preview" src="/code/tax/native.html"></iframe>
-                </tab-panel>
+    <div id="codeSamples" class="accordion" role="tablist" aria-multiselectable="true" ng-controller="CodeController">
+        
+        <div ng-repeat="item in data" class="panel panel-default">
+            <div class="panel-heading" role="tab">
+                <h4 class="panel-title">
+                    <a ng-if="item.tabs" data-toggle="collapse" data-parent="#codeSamples" data-target="#{{item.id}}" aria-expanded="false" aria-controls="{{item.id}}" id="{{item.id}}-label">
+                        {{item.name}}
+                    </a>
+                    <a ng-if="!item.tabs" data-parent="#codeSamples" href="{{item.href}}" id="{{item.id}}-label">
+                        {{item.name}}
+                    </a>
+                </h4>
+            </div>
 
-                <tab-panel data-id="tax-angular" side tab-click-fn="loadCode($event)" data-tabs="
-                    [{
-                        'label': 'angular.js',
-                        'tab': 'angular-tax-js',
-                        'src' : '/code/tax/angular.js'
-                    },{
-                        'label': 'angular.html',
-                        'tab': 'angular-tax-html',
-                        'src' : '/code/tax/angular.html'
-                    },{
-                        'label': 'Preview',
-                        'tab': 'angular-tax-preview'
-                    }]
-                ">
-                    <code data-id="angular-tax-js" data-src="angular.js">{{code}}</code>
-                    <code data-id="angular-tax-html" data-src="angular.html">{{code}}</code>
-                    <iframe data-id="angular-tax-preview" src="/code/tax/angular.html"></iframe>
-                </tab-panel>
+            <div ng-if="item.tabs" id="{{item.id}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{item.id}}-label">
+                <div class="inner">
+                    <select class="hidden-lg-up form-control margin-bottom" ng-model="activeTab" ng-change="updateActiveTab()">
+                        <option value="">Select an option</option>
+                        <option ng-repeat="tab in item.tabs" value="{{tab.id}}">{{tab.name}}</option>
+                    </select>
+                    <ul class="nav nav-tabs hidden-md-down">
+                        <li ng-repeat="tab in item.tabs" class="nav-item">
+                            <a ng-if="tab.type && tab.type=='code'" ng-click="loadCode(tab); updateActiveTab(tab)" role="tab" data-toggle="tab" data-target="#{{tab.id}}">{{tab.name}}</a>
+                            <a ng-if="!tab.type || tab.type != 'code'" ng-click="updateActiveTab(tab)" role="tab" data-toggle="tab" data-target="#{{tab.id}}">{{tab.name}}</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div ng-repeat="tab in item.tabs" role="tabpanel" class="tab-pane" id="{{tab.id}}" aria-expanded="false">
+                            <code ng-if="tab.type && tab.type=='code'">{{tab.code}}</code>
+                            <iframe ng-if="tab.type && tab.type == 'iframe'" ng-src="{{tab.src}}"></iframe>
 
-                <tab-panel data-id="tax-jquery" side tab-click-fn="loadCode($event)" data-tabs="
-                    [{
-                        'label': 'jquery.js',
-                        'tab': 'jquery-tax-js',
-                        'src' : '/code/tax/jquery.js'
-                    },{
-                        'label': 'jquery.html',
-                        'tab': 'jquery-tax-html',
-                        'src' : '/code/tax/jquery.html'
-                    },{
-                        'label': 'Preview',
-                        'tab': 'jquery-tax-preview'
-                    }]
-                ">
-                    <code data-id="jquery-tax-js" data-src="jquery.js">{{code}}</code>
-                    <code data-id="jquery-tax-html" data-src="jquery.html">{{code}}</code>
-                    <iframe data-id="jquery-tax-preview" src="/code/tax/jquery.html"></iframe>
-                </tab-panel>
-
-            </tab-panel>
-        </li>
-
-
-
-        <li class="expandable" ng-click="showOrHide($event)">
-            <span class="label">US Budget D3</span>
-            <tab-panel side data-id="us-budget" tab-click-fn="loadCode($event)" data-tabs="
-                [{
-                    'label': 'colors.js',
-                    'tab': 'colors-js',
-                    'src' : '/code/usBudget/scripts/colors.js'
-                },{
-                    'label': 'd3.js',
-                    'tab': 'd3-js',
-                    'src' : '/code/usBudget/scripts/d3.js'
-                },{
-                    'label': 'GovDataController.js',
-                    'tab': 'gov-data-controller',
-                    'src' : '/code/usBudget/scripts/GovDataController.js'
-                },{
-                    'label': 'index.html',
-                    'tab': 'index-html',
-                    'src' : '/code/usBudget/index.html'
-                },{
-                    'label': 'Preview',
-                    'tab': 'gov-data-preview'
-                }]
-            ">
-                <code data-id="colors-js" data-src="colors.js">{{code}}</code>
-                <code data-id="d3-js" data-src="d3.html">{{code}}</code>
-                <code data-id="gov-data-controller" data-src="GovDataController.js">{{code}}</code>
-                <code data-id="index-html" data-src="index.html">{{code}}</code>
-                <iframe data-id="gov-data-preview" src="/code/usBudget/index.html"></iframe>
-            </tab-panel>
-        </li>
-        <li><span class="label">News RSS Reader</span></li>
-        <li><span class="label">View This Site on GitHub</span></li>
-    </ul>
-</nav>
+                            <select ng-if="tab.tabs" class="hidden-lg-up form-control margin-bottom" ng-model="activeSubTab" ng-change="updateActiveTab()">
+                                <option value="">Select an option</option>
+                                <option ng-repeat="subTab in tab.tabs" value="{{subTab.id}}">{{subTab.name}}</option>
+                            </select>
+                            <ul ng-if="tab.tabs" class="nav nav-tabs hidden-md-down">
+                                <li ng-repeat="subTab in tab.tabs" class="nav-item">
+                                    <a ng-if="subTab.type && subTab.type=='code'" ng-click="loadCode(subTab); updateActiveTab(subTab)" role="tab" data-toggle="tab" data-target="#{{subTab.id}}">{{subTab.name}}</a>
+                                    <a ng-if="!subTab.type || subTab.type != 'code'" ng-click="updateActiveTab(subTab)" role="tab" data-toggle="tab" data-target="#{{subTab.id}}">{{subTab.name}}</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div ng-repeat="subTab in tab.tabs" role="tabpanel" class="tab-pane" id="{{subTab.id}}">
+                                    <code ng-if="subTab.type && subTab.type=='code'">{{subTab.code}}</code>
+                                    <iframe ng-if="subTab.type && subTab.type == 'iframe'" ng-src="{{subTab.src}}"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </div>
+</article>

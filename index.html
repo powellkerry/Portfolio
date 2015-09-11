@@ -1,50 +1,56 @@
-<html ng-app="Portfolio">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta charset="utf-8"/>
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="mobile-web-app-capable" content="yes"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <link rel="stylesheet" href="styles/build/portfolio.min.css">
-
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-route.min.js"></script>
-    <script src="Portfolio.config.js"></script>
-
-    <script src="scripts/controllers/NavController.js"></script>
-    <script src="scripts/controllers/AccordionController.js"></script>
-    <script src="scripts/controllers/CodeController.js"></script>
-    <script src="scripts/directives/LightBox.js"></script>
-    <script src="scripts/directives/TabPanel.js"></script>
-    <script src="scripts/factories/CodeFactory.js"></script>
-    <base href="/NewPortfolio/">
-</head>
-<body>
-<header class="site-header">
-    <nav class="site-nav" ng-controller="NavController" >
-        <a class="logo" href="/#/about"></a>
-        <ul>
-            <li class="menu" ng-click="showHideMenu($event)">
-                <ul class="collapsed">
-                    <li><a ng-href="/#/about">about me</a></li>
-                    <li><a ng-href="/#/work">work history</a></li>
-                    <li><a ng-href="/#/code">code samples</a></li>
-                    <li><a ng-href="/#/hire">hire me</a></li>
+<html ng-app="Portfolio" lang="en-US">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="mobile-web-app-capable" content="yes"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Kerry W Powell - Web UI Developer</title>
+        <link rel="icon" type="image/ico" href="favicon.ico">
+        <link rel="stylesheet" href="styles/build/bootstrap-4.min.css">
+        <link rel="stylesheet" href="styles/build/portfolio.min.css">
+    </head>
+    <body>
+        <header class="container site-header">
+            <nav class="site-nav" ng-controller="NavController" >
+                <a class="logo" href="/#/about" title="Kerry Powell - Home">
+                    <img src="styles/images/logo.svg">
+                </a>
+                <ul class="hidden-md-down">
+                    <li><a ng-href="#/about" ng-class="{'active': path=='/about'}">about me</a></li>
+                    <li><a ng-href="#/work" ng-class="{'active': path=='/work'}">work history</a></li>
+                    <li><a ng-href="#/code" ng-class="{'active': path=='/code'}">code samples</a></li>
+                    <li><a ng-href="#/hire" ng-class="{'active': path=='/hire'}">hire me</a></li>
                 </ul>
-            </li>
-        </ul>
-    </nav>
-</header>
+                <div class="hidden-lg-up">
+                    <button class="menu-trigger collapsed" ng-class="{'collapsed': !isMenuActive}" ng-click="isMenuActive = !isMenuActive"></button>
+                    <div class="menu collapsed" ng-class="{'collapsed': !isMenuActive}">
+                        <div class="container">
+                            <ul>
+                                <li><a ng-click="isMenuActive = !isMenuActive" ng-class="{'active': path=='/about'}" ng-href="#/about">about me</a></li>
+                                <li><a ng-click="isMenuActive = !isMenuActive" ng-class="{'active': path=='/work'}"ng-href="#/work">work history</a></li>
+                                <li><a ng-click="isMenuActive = !isMenuActive" ng-class="{'active': path=='/code'}" ng-href="#/code">code samples</a></li>
+                                <li><a ng-click="isMenuActive = !isMenuActive" ng-class="{'active': path=='/hire'}" ng-href="#/hire">hire me</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
 
-<div class="site-container" ng-view></div>
+        <div class="container" ng-view></div>
 
-<footer class="site-footer">
-    <a href="mailto:kerrywpowell@gmail.com"> kerrywpowell@gmail.com</a>
-    <a href="tel:435-754-4867"> (435) 754-4867</a>
-    <address>7796 N Mountain Ash Way, Eagle Mountain, Utah, 84005</address>
-</footer>
+        <footer class="site-footer container">
+            <a href="mailto:kerrywpowell@gmail.com"> kerrywpowell@gmail.com</a>
+            (435) 754-4867
+        </footer>
 
-</body>
+
+        <script src="scripts/build/angular.min.js"></script>
+        <script src="scripts/build/angular-route.min.js"></script>
+        <script type="text/javascript" src="scripts/build/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="scripts/build/bootstrap.min.js"></script>
+        <script src="scripts/build/portfolio.min.js"></script>
+    </body>
 </html>

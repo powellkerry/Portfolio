@@ -1,65 +1,30 @@
-.tabpanel {
-  clear: both;
-  height: 900px;
-  position: relative;
+.nav.nav-tabs {
+  border-bottom: 1px solid $color-white;
 
- .tabs {
-   margin-left: 36px;
+  li.nav-item {
+    margin-bottom: 0;
 
-   .tab {
-     background: $color-action;
-     border: 1px solid $color-background;
-     color: $color-background;
-     float: left;
-     display: inline-block;
-     padding: 10px;
-     font-size: 12px;
-     border-bottom: 0;
+    a {
+      background-color: $color-blue;
+      color: $color-white;
+      padding: 10px;
+      display: inline-block;
+      cursor: pointer;
 
-     &.active {
-       background: $color-background;
-       color: $color-action;
-     }
-   }
+      &.active, &:hover {
+        background-color: darken($color-white, 10%);
+        color: $color-blue;
+        text-decoration: none;
+      }
 
-   &.side {
-     margin-left: 0;
-     position: absolute;
-     -webkit-transform: rotate(-90deg);
-     -webkit-transform-origin: top right;
-     transform: rotate(-90deg);
-     transform-origin: top right;
-     left: -900px;
-     padding-right: 40px;
-     background: $color-action;
-     width: 900px;
-     box-sizing: border-box;
+      
+    }
+  }
+}
 
-     .tab {
-       float: right;
-       cursor: pointer;
-     }
-   }
- }
-
- .content {
-   background: $color-background;
-   height: 100%;
-   width: 100%;
-   display: inline-block;
-   cursor: auto;
-
-   & > * {
-     display: none;
-   }
-
-   & > *.active {
-     display: inline;
-   }
-
-   & > code.active {
-     display: inline-block;
-   }
- }
-
+.tab-pane {
+  padding: 20px;
+  border: 1px solid darken($color-white, 10%);
+  margin-top: -1px;
+  background-color: $color-white;
 }

@@ -1,22 +1,21 @@
 .site-footer {
-  border-top: 2px solid $color-action;
-  max-width: 1000px;
-  margin: 0px auto;
+  border-top: 2px solid $color-green;
+  margin-top: 40px;
   padding: 30px;
-  color: $color-primary;
+  color: $color-black;
   display: block;
   text-align: center;
   box-sizing: border-box;
 
   a {
-    color: $color-action;
+    color: $color-blue;
     text-decoration: none;
-    border-right: 1px solid $color-secondary;
+    border-right: 1px solid $color-green;
     padding-right: 5px;
 
     &:hover, &:active {
       text-decoration: underline;
-      color: $color-secondary;
+      color: $color-red;
     }
 
   }

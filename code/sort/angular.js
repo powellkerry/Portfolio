@@ -2,6 +2,7 @@ var app = angular.module('AngularSort', []);
 
 app.controller('SortController', function ($scope, SortFactory) {
     $scope.presidents = [];
+    $scope.sortArray = ['order'];
 
     SortFactory.loadPresidents(function (data) {
         $scope.presidents = data;
@@ -11,33 +12,16 @@ app.controller('SortController', function ($scope, SortFactory) {
         }];
     });
 
-    $scope.sort = function (event, key) {
-        var found = false;
-        for (var i=0; i < this.sortConfig.length; i++) {
-            var obj = this.sortConfig[i];
-            if (obj.field === key) {
-                found = true;
-                if (event.target.classList.contains('asc')) {
-                    event.target.classList.remove('asc');
-                    this.sortConfig.splice(i, 1);
-                } else if (event.target.classList.contains('desc')) {
-                    event.target.classList.add('asc');
-                    event.target.classList.remove('desc');
-                    this.sortConfig[i].direction = 'ASC';
-                } else {
-                    event.target.classList.add('desc');
-                    this.sortConfig[i].direction = 'DESC';
-                }
-            }
+    $scope.updateSort = function (event, key) {
+        var elClassList = event.target.classList;
+        if (elClassList.contains('asc')) {
+            $scope.sortArray.splice($scope.sortArray.indexOf(key), 1);
+        } else if(elClassList.contains('desc')) {
+            $scope.sortArray.splice($scope.sortArray.indexOf('-'+key), 1);
+            $scope.sortArray.push(key);
+        } else {
+            $scope.sortArray.push('-'+key);
         }
-        if (!found) {
-            event.target.classList.add('desc');
-            this.sortConfig.push({
-                direction: 'DESC',
-                field: key
-            });
-        }
-        $scope.presidents = sort.sortObjectArray($scope.presidents, $scope.sortConfig);
     };
 });
 

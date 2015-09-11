@@ -1,67 +1,73 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Income Tax Calculator</title>
-    <link rel="stylesheet" href="../../styles/build/portfolio.min.css">
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="jquery.js"></script>
-</head>
-<body>
-<div class="input">
-    <h1>Annual Income Tax Calculator</h1>
-    <form>
-        <div class="form-field">
-            <label>Filing Status:</label>
-            <select id="scheduleDdl" onselect="tax.selectSchedule()">
+<html lang="en-US">
+    <head>
+        <title>Income Tax Calculator</title>
+        <link rel="stylesheet" href="../../styles/build/bootstrap-4.min.css">
+        <link rel="stylesheet" href="../../styles/build/portfolio.min.css">
+        <script src="../../scripts/build/jquery-2.1.4.min.js"></script>
+        <script src="jquery.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Annual Income Tax Calculator</h1>
 
-            </select>
-        </div>
+            <div class="row">    
+                <form class="col-md-8">
+                    <div class="form-group row">
+                        <label for="scheduleDdl" class="form-control-label col-md-4">Filing Status:</label>
+                        <div class="col-md-8">
+                            <select class="form-control" id="scheduleDdl" onselect="tax.selectSchedule()"></select>
+                        </div>
+                    </div>
 
-        <div class="form-field">
-            <label>Annual Income:</label>
-            <input id="income" type="number" onkeyup="tax.selectSchedule()"/>
-        </div>
-    </form>
-</div>
+                    <div class="form-group row">
+                        <label for="income" class="form-control-label col-md-4">Annual Income:</label>
+                        <div class="col-md-8">
+                            <input id="income" class="form-control" id="income" type="number" onkeyup="tax.selectSchedule()"/>
+                        </div>
+                    </div>
+                </form>
+            </div>
 
-<div class="result">
-    <h1>Result</h1>
-    <section class="selected-schedule">
-        <h2>Schedule:</h2>
-        <div class="result-field">
-            <label>Filing Status:</label>
-            <span class="value" id="status"></span>
-        </div>
-        <div class="result-field">
-            <label>Income Range:</label>
-                <span class="value" id="incomeRange"></span>
-        </div>
-        <div class="result-field">
-            <label>Tax Rate:</label>
-            <span class="value" id="taxRate"></span>
-        </div>
-        <div class="result-field">
-            <label>Tax Rate Assessed After:</label>
-            <span class="value" id="rateAppliesToAmountOver"></span>
-        </div>
-        <div class="result-field">
-            <label>Base Amount:</label>
-            <span class="value" id="baseAmount"></span>
-        </div>
-    </section>
+            <div class="result">
+                <h2>Result</h2>
+                <section class="selected-schedule">
+                    <h3>Schedule:</h3>
+                    <div class="row">
+                        <label class="col-xs-12 col-md-4">Filing Status:</label>
+                        <span class="col-xs-12 col-md-8" id="status"></span>
+                    </div>
+                    <div class="row">
+                        <label class="col-xs-12 col-md-4">Income Range:</label>
+                        <span class="col-xs-12 col-md-8" id="incomeRange"></span>
+                    </div>
+                    <div class="row">
+                        <label class="col-xs-12 col-md-4">Tax Rate:</label>
+                        <span class="col-xs-12 col-md-8" id="taxRate"></span>
+                    </div>
+                    <div class="row">
+                        <label class="col-xs-12 col-md-4">Tax Rate Assessed After:</label>
+                        <span class="col-xs-12 col-md-8" id="rateAppliesToAmountOver"></span>
+                    </div>
+                    <div class="row">
+                        <label class="col-xs-12 col-md-4">Base Amount:</label>
+                        <span class="col-xs-12 col-md-8" id="baseAmount"></span>
+                    </div>
+                </section>
 
-    <section class="tax-totals">
-        <h2>Income Tax Amount</h2>
-        <div class="result-field">
-            <label>Total Income Tax:</label>
-                <span>
-                    <span class="value" id="taxTotal"></span><br/>
-                    <span class="formula" id="formula"></span>
-                </span>
+                <section class="tax-totals">
+                    <h3>Income Tax Amount</h3>
+                    <div class="row">
+                        <label class="col-xs-12 col-md-4">Total Income Tax:</label>
+                        <div class="col-xs-12 col-md-8">
+                            <span class="value" id="taxTotal"></span><br/>
+                            <span class="formula" id="formula"></span>
+                        </div>
+                    </div>
+                </section>
+                <br/><br/>
+                *Based on 2013 federal income tax schedules
+            </div>
         </div>
-    </section>
-    <br/><br/>
-    *Based on 2013 federal income tax schedules
-</div>
-</body>
+    </body>
 </html>

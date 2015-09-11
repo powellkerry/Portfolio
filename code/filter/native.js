@@ -20,6 +20,12 @@ var request = new XMLHttpRequest(),
                     birthplace = document.createElement('td'),
                     party = document.createElement('td');
 
+                firstName.setAttribute('data-header', 'First Name');
+                lastName.setAttribute('data-header', 'Last Name');
+                order.setAttribute('data-header', 'Order');
+                years.setAttribute('data-header', 'Years Served');
+                birthplace.setAttribute('data-header', 'Birth State');
+                party.setAttribute('data-header', 'Party');
 
                 firstName.appendChild(document.createTextNode(president.firstName));
                 lastName.appendChild(document.createTextNode(president.lastName));
@@ -50,7 +56,9 @@ var request = new XMLHttpRequest(),
         }
     };
 
-request.open("GET", "/code/json/USPresidents.json", true);
+request.open("GET", window.location.origin + 
+                    window.location.pathname.substr(0, window.location.pathname.indexOf('/code')) +
+                    "/code/json/USPresidents.json", true);
 request.onreadystatechange = function () {
 
     if (request.responseText && request.responseText !== "") {
