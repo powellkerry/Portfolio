@@ -1,6 +1,7 @@
 angular.module('Portfolio')
     .directive('lightBox', function() {
         return {
+            scope:{},
             restrict: 'E',
             link: function(scope, element, attrs) {
                 var count = 1,
